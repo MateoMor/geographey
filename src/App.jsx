@@ -1,11 +1,12 @@
-function App() {
+import React from "react";
+import MainContainer from "./containers/MainContainer";
 
-  return (
-    <>
-      
-      
-    </>
-  )
+function App() {
+    return (
+        <>
+            <MainContainer />
+        </>
+    );
 }
 
-export default App
+export default App;
