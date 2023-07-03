@@ -1,6 +1,6 @@
 function GameContainer() {
   return (
-    <div>GameContainer</div>
+    <div id="gameContainer"></div>
   )
 }
 

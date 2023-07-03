@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import {
     ComposableMap,
     Geographies,
@@ -11,7 +9,7 @@ import {
 import { Tooltip } from "react-tooltip";
 
 const geoUrl =
-    "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries-sans-antarctica.json";
+    "https://raw.githubusercontent.com/MateoMor/topojson/main/world-countries-sans-antarctica-some-changes.json";
 
 function MapChart() {
     /* const [content, setContent] = useState(""); */
@@ -28,14 +26,26 @@ function MapChart() {
                                 geographies.map((geo) => (
                                     <Geography
                                         data-tooltip-id="tooltip"
-                                        data-tooltip-content={geo.properties.name} /* {content} */
+                                        data-tooltip-content={
+                                            geo.properties.name
+                                        } /* {content} */
                                         data-tooltip-place="top"
                                         data-tooltip-float="true"
                                         key={geo.rsmKey}
                                         geography={geo}
                                         fill="#0092CA"
                                         className="hover:fill-[#F53]"
-                                        onClick={() => console.log(geo.properties.name)}
+                                        // available props: id, properties : {name, ["Alpha-2"]}
+                                        onClick={() =>
+                                            (document.getElementById(
+                                                "gameContainer"
+                                            ).textContent =
+                                                document.getElementById(
+                                                    "gameContainer"
+                                                ).textContent +
+                                                ", " +
+                                                geo.properties.name)
+                                        }
                                         /* onMouseEnter={() => {
                                             const { name } = geo.properties;
                                             setContent(`${name}`);
