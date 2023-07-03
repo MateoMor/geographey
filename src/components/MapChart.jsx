@@ -8,8 +8,12 @@ import {
 
 import { Tooltip } from "react-tooltip";
 
-const geoUrl =
-    "https://raw.githubusercontent.com/MateoMor/topojson/main/world-countries-sans-antarctica-some-changes.json";
+import geoUrl from "../data/countries-map.json";
+
+/* const geoUrl =
+    "https://raw.githubusercontent.com/MateoMor/topojson/main/world-countries-sans-antarctica-some-changes.json"; */
+
+/* const anotherURl = "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/africa.json" */
 
 function MapChart() {
     /* const [content, setContent] = useState(""); */
@@ -18,9 +22,9 @@ function MapChart() {
         <div className="flex flex-col justify-center items-center ">
             <Tooltip id="tooltip" />
 
-            <div className="border-double border-black border-2 w-full bg-white">
+            <div className="border-2  bg-white w-full ">
                 <ComposableMap data-tip="">
-                    <ZoomableGroup zoom={1}>
+                    <ZoomableGroup center={[6, -32]} zoom={0.85}>
                         <Geographies geography={geoUrl}>
                             {({ geographies }) =>
                                 geographies.map((geo) => (
@@ -57,7 +61,7 @@ function MapChart() {
                                 ))
                             }
                         </Geographies>
-                        <Annotation
+                        {/* <Annotation
                             subject={[1.5218, 42.5063]}
                             dx={-90}
                             dy={-30}
@@ -76,7 +80,7 @@ function MapChart() {
                             >
                                 {"Andorra"}
                             </text>
-                        </Annotation>
+                        </Annotation> */}
                     </ZoomableGroup>
                 </ComposableMap>
             </div>
