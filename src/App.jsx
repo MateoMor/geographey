@@ -1,12 +1,16 @@
+import { disablePageScroll } from "scroll-lock";
+
 import MainContainer from "./containers/MainContainer";
-import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import { GlobalProvider } from "./context/GlobalState";
 
 disablePageScroll();
 
 function App() {
     return (
         <div>
-            <MainContainer />
+            <GlobalProvider>
+                <MainContainer />
+            </GlobalProvider>
         </div>
     );
 }
