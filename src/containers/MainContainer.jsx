@@ -3,7 +3,7 @@ import GameContainer from "./GameContainer";
 
 function MainContainer() {
     return (
-        <div >
+        <div>
             <GameContainer />
             <MapChart />
         </div>
