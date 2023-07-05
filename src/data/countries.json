@@ -9,6 +9,15 @@
     "subregion": "Southern Asia"
   },
   {
+    "alpha2Code": "AO",
+    "alpha3Code": "AGO",
+    "capital": "Luanda",
+    "flag": "ago.svg",
+    "name": "Angola",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
     "alpha2Code": "AL",
     "alpha3Code": "ALB",
     "capital": "Tirana",
@@ -16,15 +25,6 @@
     "name": "Albania",
     "region": "Europe",
     "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "DZ",
-    "alpha3Code": "DZA",
-    "capital": "Algiers",
-    "flag": "dza.svg",
-    "name": "Algeria",
-    "region": "Africa",
-    "subregion": "Northern Africa"
   },
   {
     "alpha2Code": "AD",
@@ -36,22 +36,13 @@
     "subregion": "Southern Europe"
   },
   {
-    "alpha2Code": "AO",
-    "alpha3Code": "AGO",
-    "capital": "Luanda",
-    "flag": "ago.svg",
-    "name": "Angola",
-    "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
-    "alpha2Code": "AG",
-    "alpha3Code": "ATG",
-    "capital": "Saint John's",
-    "flag": "atg.svg",
-    "name": "Antigua and Barbuda",
-    "region": "Americas",
-    "subregion": "Caribbean"
+    "alpha2Code": "AE",
+    "alpha3Code": "ARE",
+    "capital": "Abu Dhabi",
+    "flag": "are.svg",
+    "name": "United Arab Emirates",
+    "region": "Asia",
+    "subregion": "Western Asia"
   },
   {
     "alpha2Code": "AR",
@@ -70,6 +61,15 @@
     "name": "Armenia",
     "region": "Asia",
     "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "AG",
+    "alpha3Code": "ATG",
+    "capital": "Saint John's",
+    "flag": "atg.svg",
+    "name": "Antigua and Barbuda",
+    "region": "Americas",
+    "subregion": "Caribbean"
   },
   {
     "alpha2Code": "AU",
@@ -99,49 +99,13 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "BS",
-    "alpha3Code": "BHS",
-    "capital": "Nassau",
-    "flag": "bhs.svg",
-    "name": "Bahamas",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
-    "alpha2Code": "BH",
-    "alpha3Code": "BHR",
-    "capital": "Manama",
-    "flag": "bhr.svg",
-    "name": "Bahrain",
-    "region": "Asia",
-    "subregion": "Western Asia"
-  },
-  {
-    "alpha2Code": "BD",
-    "alpha3Code": "BGD",
-    "capital": "Dhaka",
-    "flag": "bgd.svg",
-    "name": "Bangladesh",
-    "region": "Asia",
-    "subregion": "Southern Asia"
-  },
-  {
-    "alpha2Code": "BB",
-    "alpha3Code": "BRB",
-    "capital": "Bridgetown",
-    "flag": "brb.svg",
-    "name": "Barbados",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
-    "alpha2Code": "BY",
-    "alpha3Code": "BLR",
-    "capital": "Minsk",
-    "flag": "blr.svg",
-    "name": "Belarus",
-    "region": "Europe",
-    "subregion": "Eastern Europe"
+    "alpha2Code": "BI",
+    "alpha3Code": "BDI",
+    "capital": "Gitega",
+    "flag": "bdi.svg",
+    "name": "Burundi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
   },
   {
     "alpha2Code": "BE",
@@ -153,15 +117,6 @@
     "subregion": "Western Europe"
   },
   {
-    "alpha2Code": "BZ",
-    "alpha3Code": "BLZ",
-    "capital": "Belmopan",
-    "flag": "blz.svg",
-    "name": "Belize",
-    "region": "Americas",
-    "subregion": "Central America"
-  },
-  {
     "alpha2Code": "BJ",
     "alpha3Code": "BEN",
     "capital": "Porto-Novo",
@@ -169,69 +124,6 @@
     "name": "Benin",
     "region": "Africa",
     "subregion": "Western Africa"
-  },
-  {
-    "alpha2Code": "BT",
-    "alpha3Code": "BTN",
-    "capital": "Thimphu",
-    "flag": "btn.svg",
-    "name": "Bhutan",
-    "region": "Asia",
-    "subregion": "Southern Asia"
-  },
-  {
-    "alpha2Code": "BO",
-    "alpha3Code": "BOL",
-    "capital": "Sucre",
-    "flag": "bol.svg",
-    "name": "Bolivia",
-    "region": "Americas",
-    "subregion": "South America"
-  },
-  {
-    "alpha2Code": "BA",
-    "alpha3Code": "BIH",
-    "capital": "Sarajevo",
-    "flag": "bih.svg",
-    "name": "Bosnia and Herzegovina",
-    "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "BW",
-    "alpha3Code": "BWA",
-    "capital": "Gaborone",
-    "flag": "bwa.svg",
-    "name": "Botswana",
-    "region": "Africa",
-    "subregion": "Southern Africa"
-  },
-  {
-    "alpha2Code": "BR",
-    "alpha3Code": "BRA",
-    "capital": "Brasília",
-    "flag": "bra.svg",
-    "name": "Brazil",
-    "region": "Americas",
-    "subregion": "South America"
-  },
-  {
-    "alpha2Code": "BN",
-    "alpha3Code": "BRN",
-    "capital": "Bandar Seri Begawan",
-    "flag": "brn.svg",
-    "name": "Brunei",
-    "region": "Asia",
-    "subregion": "South-Eastern Asia"
-  },
-  {
-    "alpha2Code": "BG",
-    "alpha3Code": "BGR",
-    "capital": "Sofia",
-    "flag": "bgr.svg",
-    "name": "Bulgaria",
-    "region": "Europe",
-    "subregion": "Eastern Europe"
   },
   {
     "alpha2Code": "BF",
@@ -243,29 +135,128 @@
     "subregion": "Western Africa"
   },
   {
-    "alpha2Code": "BI",
-    "alpha3Code": "BDI",
-    "capital": "Gitega",
-    "flag": "bdi.svg",
-    "name": "Burundi",
-    "region": "Africa",
-    "subregion": "Eastern Africa"
+    "alpha2Code": "BD",
+    "alpha3Code": "BGD",
+    "capital": "Dhaka",
+    "flag": "bgd.svg",
+    "name": "Bangladesh",
+    "region": "Asia",
+    "subregion": "Southern Asia"
   },
   {
-    "alpha2Code": "KH",
-    "alpha3Code": "KHM",
-    "capital": "Phnom Penh",
-    "flag": "khm.svg",
-    "name": "Cambodia",
+    "alpha2Code": "BG",
+    "alpha3Code": "BGR",
+    "capital": "Sofia",
+    "flag": "bgr.svg",
+    "name": "Bulgaria",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "BH",
+    "alpha3Code": "BHR",
+    "capital": "Manama",
+    "flag": "bhr.svg",
+    "name": "Bahrain",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "BS",
+    "alpha3Code": "BHS",
+    "capital": "Nassau",
+    "flag": "bhs.svg",
+    "name": "Bahamas",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "BA",
+    "alpha3Code": "BIH",
+    "capital": "Sarajevo",
+    "flag": "bih.svg",
+    "name": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "BY",
+    "alpha3Code": "BLR",
+    "capital": "Minsk",
+    "flag": "blr.svg",
+    "name": "Belarus",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "BZ",
+    "alpha3Code": "BLZ",
+    "capital": "Belmopan",
+    "flag": "blz.svg",
+    "name": "Belize",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "BO",
+    "alpha3Code": "BOL",
+    "capital": "Sucre",
+    "flag": "bol.svg",
+    "name": "Bolivia",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "BR",
+    "alpha3Code": "BRA",
+    "capital": "Brasília",
+    "flag": "bra.svg",
+    "name": "Brazil",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "BB",
+    "alpha3Code": "BRB",
+    "capital": "Bridgetown",
+    "flag": "brb.svg",
+    "name": "Barbados",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "BN",
+    "alpha3Code": "BRN",
+    "capital": "Bandar Seri Begawan",
+    "flag": "brn.svg",
+    "name": "Brunei",
     "region": "Asia",
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "CM",
-    "alpha3Code": "CMR",
-    "capital": "Yaoundé",
-    "flag": "cmr.svg",
-    "name": "Cameroon",
+    "alpha2Code": "BT",
+    "alpha3Code": "BTN",
+    "capital": "Thimphu",
+    "flag": "btn.svg",
+    "name": "Bhutan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "BW",
+    "alpha3Code": "BWA",
+    "capital": "Gaborone",
+    "flag": "bwa.svg",
+    "name": "Botswana",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "alpha2Code": "CF",
+    "alpha3Code": "CAF",
+    "capital": "Bangui",
+    "flag": "caf.svg",
+    "name": "Central African Republic",
     "region": "Africa",
     "subregion": "Middle Africa"
   },
@@ -279,31 +270,13 @@
     "subregion": "Northern America"
   },
   {
-    "alpha2Code": "CV",
-    "alpha3Code": "CPV",
-    "capital": "Praia",
-    "flag": "cpv.svg",
-    "name": "Cabo Verde",
-    "region": "Africa",
-    "subregion": "Western Africa"
-  },
-  {
-    "alpha2Code": "CF",
-    "alpha3Code": "CAF",
-    "capital": "Bangui",
-    "flag": "caf.svg",
-    "name": "Central African Republic",
-    "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
-    "alpha2Code": "TD",
-    "alpha3Code": "TCD",
-    "capital": "N'Djamena",
-    "flag": "tcd.svg",
-    "name": "Chad",
-    "region": "Africa",
-    "subregion": "Middle Africa"
+    "alpha2Code": "CH",
+    "alpha3Code": "CHE",
+    "capital": "Bern",
+    "flag": "che.svg",
+    "name": "Switzerland",
+    "region": "Europe",
+    "subregion": "Western Europe"
   },
   {
     "alpha2Code": "CL",
@@ -324,6 +297,42 @@
     "subregion": "Eastern Asia"
   },
   {
+    "alpha2Code": "CI",
+    "alpha3Code": "CIV",
+    "capital": "Yamoussoukro",
+    "flag": "civ.svg",
+    "name": "Ivory Coast",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "CM",
+    "alpha3Code": "CMR",
+    "capital": "Yaoundé",
+    "flag": "cmr.svg",
+    "name": "Cameroon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "CD",
+    "alpha3Code": "COD",
+    "capital": "Kinshasa",
+    "flag": "cod.svg",
+    "name": "Democratic Republic of the Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "CG",
+    "alpha3Code": "COG",
+    "capital": "Brazzaville",
+    "flag": "cog.svg",
+    "name": "Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
     "alpha2Code": "CO",
     "alpha3Code": "COL",
     "capital": "Bogotá",
@@ -342,22 +351,13 @@
     "subregion": "Eastern Africa"
   },
   {
-    "alpha2Code": "CG",
-    "alpha3Code": "COG",
-    "capital": "Brazzaville",
-    "flag": "cog.svg",
-    "name": "Congo",
+    "alpha2Code": "CV",
+    "alpha3Code": "CPV",
+    "capital": "Praia",
+    "flag": "cpv.svg",
+    "name": "Cabo Verde",
     "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
-    "alpha2Code": "CD",
-    "alpha3Code": "COD",
-    "capital": "Kinshasa",
-    "flag": "cod.svg",
-    "name": "Democratic Republic of the Congo",
-    "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Western Africa"
   },
   {
     "alpha2Code": "CR",
@@ -367,15 +367,6 @@
     "name": "Costa Rica",
     "region": "Americas",
     "subregion": "Central America"
-  },
-  {
-    "alpha2Code": "HR",
-    "alpha3Code": "HRV",
-    "capital": "Zagreb",
-    "flag": "hrv.svg",
-    "name": "Croatia",
-    "region": "Europe",
-    "subregion": "Southern Europe"
   },
   {
     "alpha2Code": "CU",
@@ -405,13 +396,13 @@
     "subregion": "Eastern Europe"
   },
   {
-    "alpha2Code": "DK",
-    "alpha3Code": "DNK",
-    "capital": "Copenhagen",
-    "flag": "dnk.svg",
-    "name": "Denmark",
+    "alpha2Code": "DE",
+    "alpha3Code": "DEU",
+    "capital": "Berlin",
+    "flag": "deu.svg",
+    "name": "Germany",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Western Europe"
   },
   {
     "alpha2Code": "DJ",
@@ -432,6 +423,15 @@
     "subregion": "Caribbean"
   },
   {
+    "alpha2Code": "DK",
+    "alpha3Code": "DNK",
+    "capital": "Copenhagen",
+    "flag": "dnk.svg",
+    "name": "Denmark",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
     "alpha2Code": "DO",
     "alpha3Code": "DOM",
     "capital": "Santo Domingo",
@@ -439,6 +439,15 @@
     "name": "Dominican Republic",
     "region": "Americas",
     "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "DZ",
+    "alpha3Code": "DZA",
+    "capital": "Algiers",
+    "flag": "dza.svg",
+    "name": "Algeria",
+    "region": "Africa",
+    "subregion": "Northern Africa"
   },
   {
     "alpha2Code": "EC",
@@ -459,24 +468,6 @@
     "subregion": "Northern Africa"
   },
   {
-    "alpha2Code": "SV",
-    "alpha3Code": "SLV",
-    "capital": "San Salvador",
-    "flag": "slv.svg",
-    "name": "El Salvador",
-    "region": "Americas",
-    "subregion": "Central America"
-  },
-  {
-    "alpha2Code": "GQ",
-    "alpha3Code": "GNQ",
-    "capital": "Malabo",
-    "flag": "gnq.svg",
-    "name": "Equatorial Guinea",
-    "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
     "alpha2Code": "ER",
     "alpha3Code": "ERI",
     "capital": "Asmara",
@@ -484,6 +475,24 @@
     "name": "Eritrea",
     "region": "Africa",
     "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "EH",
+    "alpha3Code": "ESH",
+    "capital": "El Aaiún",
+    "flag": "esh.svg",
+    "name": "Western Sahara",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "capital": "Madrid",
+    "flag": "esp.svg",
+    "name": "Spain",
+    "region": "Europe",
+    "subregion": "Southern Europe"
   },
   {
     "alpha2Code": "EE",
@@ -504,15 +513,6 @@
     "subregion": "Eastern Africa"
   },
   {
-    "alpha2Code": "FJ",
-    "alpha3Code": "FJI",
-    "capital": "Suva",
-    "flag": "fji.svg",
-    "name": "Fiji",
-    "region": "Oceania",
-    "subregion": "Melanesia"
-  },
-  {
     "alpha2Code": "FI",
     "alpha3Code": "FIN",
     "capital": "Helsinki",
@@ -520,6 +520,15 @@
     "name": "Finland",
     "region": "Europe",
     "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "FJ",
+    "alpha3Code": "FJI",
+    "capital": "Suva",
+    "flag": "fji.svg",
+    "name": "Fiji",
+    "region": "Oceania",
+    "subregion": "Melanesia"
   },
   {
     "alpha2Code": "FR",
@@ -531,13 +540,13 @@
     "subregion": "Western Europe"
   },
   {
-    "alpha2Code": "GF",
-    "alpha3Code": "GUF",
-    "capital": "Cayenne",
-    "flag": "guf.svg",
-    "name": "French Guiana",
-    "region": "Americas",
-    "subregion": "South America"
+    "alpha2Code": "FM",
+    "alpha3Code": "FSM",
+    "capital": "Palikir",
+    "flag": "fsm.svg",
+    "name": "Micronesia",
+    "region": "Oceania",
+    "subregion": "Micronesia"
   },
   {
     "alpha2Code": "GA",
@@ -549,13 +558,13 @@
     "subregion": "Middle Africa"
   },
   {
-    "alpha2Code": "GM",
-    "alpha3Code": "GMB",
-    "capital": "Banjul",
-    "flag": "gmb.svg",
-    "name": "Gambia",
-    "region": "Africa",
-    "subregion": "Western Africa"
+    "alpha2Code": "GB",
+    "alpha3Code": "GBR",
+    "capital": "London",
+    "flag": "gbr.svg",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "subregion": "Northern Europe"
   },
   {
     "alpha2Code": "GE",
@@ -567,15 +576,6 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "DE",
-    "alpha3Code": "DEU",
-    "capital": "Berlin",
-    "flag": "deu.svg",
-    "name": "Germany",
-    "region": "Europe",
-    "subregion": "Western Europe"
-  },
-  {
     "alpha2Code": "GH",
     "alpha3Code": "GHA",
     "capital": "Accra",
@@ -585,47 +585,20 @@
     "subregion": "Western Africa"
   },
   {
-    "alpha2Code": "GR",
-    "alpha3Code": "GRC",
-    "capital": "Athens",
-    "flag": "grc.svg",
-    "name": "Greece",
-    "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "GL",
-    "alpha3Code": "GRL",
-    "capital": "Nuuk",
-    "flag": "grl.svg",
-    "name": "Greenland",
-    "region": "Americas",
-    "subregion": "Northern America"
-  },
-  {
-    "alpha2Code": "GD",
-    "alpha3Code": "GRD",
-    "capital": "St. George's",
-    "flag": "grd.svg",
-    "name": "Grenada",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
-    "alpha2Code": "GT",
-    "alpha3Code": "GTM",
-    "capital": "Guatemala City",
-    "flag": "gtm.svg",
-    "name": "Guatemala",
-    "region": "Americas",
-    "subregion": "Central America"
-  },
-  {
     "alpha2Code": "GN",
     "alpha3Code": "GIN",
     "capital": "Conakry",
     "flag": "gin.svg",
     "name": "Guinea",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "GM",
+    "alpha3Code": "GMB",
+    "capital": "Banjul",
+    "flag": "gmb.svg",
+    "name": "Gambia",
     "region": "Africa",
     "subregion": "Western Africa"
   },
@@ -639,6 +612,60 @@
     "subregion": "Western Africa"
   },
   {
+    "alpha2Code": "GQ",
+    "alpha3Code": "GNQ",
+    "capital": "Malabo",
+    "flag": "gnq.svg",
+    "name": "Equatorial Guinea",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "GR",
+    "alpha3Code": "GRC",
+    "capital": "Athens",
+    "flag": "grc.svg",
+    "name": "Greece",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "GD",
+    "alpha3Code": "GRD",
+    "capital": "St. George's",
+    "flag": "grd.svg",
+    "name": "Grenada",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "GL",
+    "alpha3Code": "GRL",
+    "capital": "Nuuk",
+    "flag": "grl.svg",
+    "name": "Greenland",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "alpha2Code": "GT",
+    "alpha3Code": "GTM",
+    "capital": "Guatemala City",
+    "flag": "gtm.svg",
+    "name": "Guatemala",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "GF",
+    "alpha3Code": "GUF",
+    "capital": "Cayenne",
+    "flag": "guf.svg",
+    "name": "French Guiana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
     "alpha2Code": "GY",
     "alpha3Code": "GUY",
     "capital": "Georgetown",
@@ -646,15 +673,6 @@
     "name": "Guyana",
     "region": "Americas",
     "subregion": "South America"
-  },
-  {
-    "alpha2Code": "HT",
-    "alpha3Code": "HTI",
-    "capital": "Port-au-Prince",
-    "flag": "hti.svg",
-    "name": "Haiti",
-    "region": "Americas",
-    "subregion": "Caribbean"
   },
   {
     "alpha2Code": "HN",
@@ -666,6 +684,24 @@
     "subregion": "Central America"
   },
   {
+    "alpha2Code": "HR",
+    "alpha3Code": "HRV",
+    "capital": "Zagreb",
+    "flag": "hrv.svg",
+    "name": "Croatia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "HT",
+    "alpha3Code": "HTI",
+    "capital": "Port-au-Prince",
+    "flag": "hti.svg",
+    "name": "Haiti",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
     "alpha2Code": "HU",
     "alpha3Code": "HUN",
     "capital": "Budapest",
@@ -673,24 +709,6 @@
     "name": "Hungary",
     "region": "Europe",
     "subregion": "Eastern Europe"
-  },
-  {
-    "alpha2Code": "IS",
-    "alpha3Code": "ISL",
-    "capital": "Reykjavík",
-    "flag": "isl.svg",
-    "name": "Iceland",
-    "region": "Europe",
-    "subregion": "Northern Europe"
-  },
-  {
-    "alpha2Code": "IN",
-    "alpha3Code": "IND",
-    "capital": "New Delhi",
-    "flag": "ind.svg",
-    "name": "India",
-    "region": "Asia",
-    "subregion": "Southern Asia"
   },
   {
     "alpha2Code": "ID",
@@ -702,13 +720,22 @@
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "CI",
-    "alpha3Code": "CIV",
-    "capital": "Yamoussoukro",
-    "flag": "civ.svg",
-    "name": "Ivory Coast",
-    "region": "Africa",
-    "subregion": "Western Africa"
+    "alpha2Code": "IN",
+    "alpha3Code": "IND",
+    "capital": "New Delhi",
+    "flag": "ind.svg",
+    "name": "India",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "IE",
+    "alpha3Code": "IRL",
+    "capital": "Dublin",
+    "flag": "irl.svg",
+    "name": "Ireland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
   },
   {
     "alpha2Code": "IR",
@@ -729,11 +756,11 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "IE",
-    "alpha3Code": "IRL",
-    "capital": "Dublin",
-    "flag": "irl.svg",
-    "name": "Ireland",
+    "alpha2Code": "IS",
+    "alpha3Code": "ISL",
+    "capital": "Reykjavík",
+    "flag": "isl.svg",
+    "name": "Iceland",
     "region": "Europe",
     "subregion": "Northern Europe"
   },
@@ -765,15 +792,6 @@
     "subregion": "Caribbean"
   },
   {
-    "alpha2Code": "JP",
-    "alpha3Code": "JPN",
-    "capital": "Tokyo",
-    "flag": "jpn.svg",
-    "name": "Japan",
-    "region": "Asia",
-    "subregion": "Eastern Asia"
-  },
-  {
     "alpha2Code": "JO",
     "alpha3Code": "JOR",
     "capital": "Amman",
@@ -781,6 +799,15 @@
     "name": "Jordan",
     "region": "Asia",
     "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "JP",
+    "alpha3Code": "JPN",
+    "capital": "Tokyo",
+    "flag": "jpn.svg",
+    "name": "Japan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
   },
   {
     "alpha2Code": "KZ",
@@ -801,6 +828,24 @@
     "subregion": "Eastern Africa"
   },
   {
+    "alpha2Code": "KG",
+    "alpha3Code": "KGZ",
+    "capital": "Bishkek",
+    "flag": "kgz.svg",
+    "name": "Kyrgyzstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "KH",
+    "alpha3Code": "KHM",
+    "capital": "Phnom Penh",
+    "flag": "khm.svg",
+    "name": "Cambodia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
     "alpha2Code": "KI",
     "alpha3Code": "KIR",
     "capital": "South Tarawa",
@@ -808,6 +853,24 @@
     "name": "Kiribati",
     "region": "Oceania",
     "subregion": "Micronesia"
+  },
+  {
+    "alpha2Code": "KN",
+    "alpha3Code": "KNA",
+    "capital": "Basseterre",
+    "flag": "kna.svg",
+    "name": "Saint Kitts and Nevis",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "KR",
+    "alpha3Code": "KOR",
+    "capital": "Seoul",
+    "flag": "kor.svg",
+    "name": "South Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
   },
   {
     "alpha2Code": "KW",
@@ -819,15 +882,6 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "KG",
-    "alpha3Code": "KGZ",
-    "capital": "Bishkek",
-    "flag": "kgz.svg",
-    "name": "Kyrgyzstan",
-    "region": "Asia",
-    "subregion": "Central Asia"
-  },
-  {
     "alpha2Code": "LA",
     "alpha3Code": "LAO",
     "capital": "Vientiane",
@@ -837,15 +891,6 @@
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "LV",
-    "alpha3Code": "LVA",
-    "capital": "Riga",
-    "flag": "lva.svg",
-    "name": "Latvia",
-    "region": "Europe",
-    "subregion": "Northern Europe"
-  },
-  {
     "alpha2Code": "LB",
     "alpha3Code": "LBN",
     "capital": "Beirut",
@@ -853,15 +898,6 @@
     "name": "Lebanon",
     "region": "Asia",
     "subregion": "Western Asia"
-  },
-  {
-    "alpha2Code": "LS",
-    "alpha3Code": "LSO",
-    "capital": "Maseru",
-    "flag": "lso.svg",
-    "name": "Lesotho",
-    "region": "Africa",
-    "subregion": "Southern Africa"
   },
   {
     "alpha2Code": "LR",
@@ -882,6 +918,15 @@
     "subregion": "Northern Africa"
   },
   {
+    "alpha2Code": "LC",
+    "alpha3Code": "LCA",
+    "capital": "Castries",
+    "flag": "lca.svg",
+    "name": "Saint Lucia",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
     "alpha2Code": "LI",
     "alpha3Code": "LIE",
     "capital": "Vaduz",
@@ -889,6 +934,24 @@
     "name": "Liechtenstein",
     "region": "Europe",
     "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "LK",
+    "alpha3Code": "LKA",
+    "capital": "Sri Jayawardenepura Kotte",
+    "flag": "lka.svg",
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "LS",
+    "alpha3Code": "LSO",
+    "capital": "Maseru",
+    "flag": "lso.svg",
+    "name": "Lesotho",
+    "region": "Africa",
+    "subregion": "Southern Africa"
   },
   {
     "alpha2Code": "LT",
@@ -909,6 +972,78 @@
     "subregion": "Western Europe"
   },
   {
+    "alpha2Code": "LV",
+    "alpha3Code": "LVA",
+    "capital": "Riga",
+    "flag": "lva.svg",
+    "name": "Latvia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "MA",
+    "alpha3Code": "MAR",
+    "capital": "Rabat",
+    "flag": "mar.svg",
+    "name": "Morocco",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "MC",
+    "alpha3Code": "MCO",
+    "capital": "Monaco",
+    "flag": "mco.svg",
+    "name": "Monaco",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "MD",
+    "alpha3Code": "MDA",
+    "capital": "Chișinău",
+    "flag": "mda.svg",
+    "name": "Moldova",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "MG",
+    "alpha3Code": "MDG",
+    "capital": "Antananarivo",
+    "flag": "mdg.svg",
+    "name": "Madagascar",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "MV",
+    "alpha3Code": "MDV",
+    "capital": "Malé",
+    "flag": "mdv.svg",
+    "name": "Maldives",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "MX",
+    "alpha3Code": "MEX",
+    "capital": "Mexico City",
+    "flag": "mex.svg",
+    "name": "Mexico",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "MH",
+    "alpha3Code": "MHL",
+    "capital": "Majuro",
+    "flag": "mhl.svg",
+    "name": "Marshall Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
     "alpha2Code": "MK",
     "alpha3Code": "MKD",
     "capital": "Skopje",
@@ -918,11 +1053,74 @@
     "subregion": "Southern Europe"
   },
   {
-    "alpha2Code": "MG",
-    "alpha3Code": "MDG",
-    "capital": "Antananarivo",
-    "flag": "mdg.svg",
-    "name": "Madagascar",
+    "alpha2Code": "ML",
+    "alpha3Code": "MLI",
+    "capital": "Bamako",
+    "flag": "mli.svg",
+    "name": "Mali",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "MT",
+    "alpha3Code": "MLT",
+    "capital": "Valletta",
+    "flag": "mlt.svg",
+    "name": "Malta",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "MM",
+    "alpha3Code": "MMR",
+    "capital": "Naypyidaw",
+    "flag": "mmr.svg",
+    "name": "Myanmar",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "ME",
+    "alpha3Code": "MNE",
+    "capital": "Podgorica",
+    "flag": "mne.svg",
+    "name": "Montenegro",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "MN",
+    "alpha3Code": "MNG",
+    "capital": "Ulan Bator",
+    "flag": "mng.svg",
+    "name": "Mongolia",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "MZ",
+    "alpha3Code": "MOZ",
+    "capital": "Maputo",
+    "flag": "moz.svg",
+    "name": "Mozambique",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "MR",
+    "alpha3Code": "MRT",
+    "capital": "Nouakchott",
+    "flag": "mrt.svg",
+    "name": "Mauritania",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "MU",
+    "alpha3Code": "MUS",
+    "capital": "Port Louis",
+    "flag": "mus.svg",
+    "name": "Mauritius",
     "region": "Africa",
     "subregion": "Eastern Africa"
   },
@@ -945,141 +1143,6 @@
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "MV",
-    "alpha3Code": "MDV",
-    "capital": "Malé",
-    "flag": "mdv.svg",
-    "name": "Maldives",
-    "region": "Asia",
-    "subregion": "Southern Asia"
-  },
-  {
-    "alpha2Code": "ML",
-    "alpha3Code": "MLI",
-    "capital": "Bamako",
-    "flag": "mli.svg",
-    "name": "Mali",
-    "region": "Africa",
-    "subregion": "Western Africa"
-  },
-  {
-    "alpha2Code": "MT",
-    "alpha3Code": "MLT",
-    "capital": "Valletta",
-    "flag": "mlt.svg",
-    "name": "Malta",
-    "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "MH",
-    "alpha3Code": "MHL",
-    "capital": "Majuro",
-    "flag": "mhl.svg",
-    "name": "Marshall Islands",
-    "region": "Oceania",
-    "subregion": "Micronesia"
-  },
-  {
-    "alpha2Code": "MR",
-    "alpha3Code": "MRT",
-    "capital": "Nouakchott",
-    "flag": "mrt.svg",
-    "name": "Mauritania",
-    "region": "Africa",
-    "subregion": "Western Africa"
-  },
-  {
-    "alpha2Code": "MU",
-    "alpha3Code": "MUS",
-    "capital": "Port Louis",
-    "flag": "mus.svg",
-    "name": "Mauritius",
-    "region": "Africa",
-    "subregion": "Eastern Africa"
-  },
-  {
-    "alpha2Code": "MX",
-    "alpha3Code": "MEX",
-    "capital": "Mexico City",
-    "flag": "mex.svg",
-    "name": "Mexico",
-    "region": "Americas",
-    "subregion": "Central America"
-  },
-  {
-    "alpha2Code": "FM",
-    "alpha3Code": "FSM",
-    "capital": "Palikir",
-    "flag": "fsm.svg",
-    "name": "Micronesia",
-    "region": "Oceania",
-    "subregion": "Micronesia"
-  },
-  {
-    "alpha2Code": "MD",
-    "alpha3Code": "MDA",
-    "capital": "Chișinău",
-    "flag": "mda.svg",
-    "name": "Moldova",
-    "region": "Europe",
-    "subregion": "Eastern Europe"
-  },
-  {
-    "alpha2Code": "MC",
-    "alpha3Code": "MCO",
-    "capital": "Monaco",
-    "flag": "mco.svg",
-    "name": "Monaco",
-    "region": "Europe",
-    "subregion": "Western Europe"
-  },
-  {
-    "alpha2Code": "MN",
-    "alpha3Code": "MNG",
-    "capital": "Ulan Bator",
-    "flag": "mng.svg",
-    "name": "Mongolia",
-    "region": "Asia",
-    "subregion": "Eastern Asia"
-  },
-  {
-    "alpha2Code": "ME",
-    "alpha3Code": "MNE",
-    "capital": "Podgorica",
-    "flag": "mne.svg",
-    "name": "Montenegro",
-    "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "MA",
-    "alpha3Code": "MAR",
-    "capital": "Rabat",
-    "flag": "mar.svg",
-    "name": "Morocco",
-    "region": "Africa",
-    "subregion": "Northern Africa"
-  },
-  {
-    "alpha2Code": "MZ",
-    "alpha3Code": "MOZ",
-    "capital": "Maputo",
-    "flag": "moz.svg",
-    "name": "Mozambique",
-    "region": "Africa",
-    "subregion": "Eastern Africa"
-  },
-  {
-    "alpha2Code": "MM",
-    "alpha3Code": "MMR",
-    "capital": "Naypyidaw",
-    "flag": "mmr.svg",
-    "name": "Myanmar",
-    "region": "Asia",
-    "subregion": "South-Eastern Asia"
-  },
-  {
     "alpha2Code": "NA",
     "alpha3Code": "NAM",
     "capital": "Windhoek",
@@ -1089,33 +1152,6 @@
     "subregion": "Southern Africa"
   },
   {
-    "alpha2Code": "NR",
-    "alpha3Code": "NRU",
-    "capital": "Yaren",
-    "flag": "nru.svg",
-    "name": "Nauru",
-    "region": "Oceania",
-    "subregion": "Micronesia"
-  },
-  {
-    "alpha2Code": "NP",
-    "alpha3Code": "NPL",
-    "capital": "Kathmandu",
-    "flag": "npl.svg",
-    "name": "Nepal",
-    "region": "Asia",
-    "subregion": "Southern Asia"
-  },
-  {
-    "alpha2Code": "NL",
-    "alpha3Code": "NLD",
-    "capital": "Amsterdam",
-    "flag": "nld.svg",
-    "name": "Netherlands",
-    "region": "Europe",
-    "subregion": "Western Europe"
-  },
-  {
     "alpha2Code": "NC",
     "alpha3Code": "NCL",
     "capital": "Nouméa",
@@ -1123,24 +1159,6 @@
     "name": "New Caledonia",
     "region": "Oceania",
     "subregion": "Melanesia"
-  },
-  {
-    "alpha2Code": "NZ",
-    "alpha3Code": "NZL",
-    "capital": "Wellington",
-    "flag": "nzl.svg",
-    "name": "New Zealand",
-    "region": "Oceania",
-    "subregion": "Australia and New Zealand"
-  },
-  {
-    "alpha2Code": "NI",
-    "alpha3Code": "NIC",
-    "capital": "Managua",
-    "flag": "nic.svg",
-    "name": "Nicaragua",
-    "region": "Americas",
-    "subregion": "Central America"
   },
   {
     "alpha2Code": "NE",
@@ -1161,13 +1179,22 @@
     "subregion": "Western Africa"
   },
   {
-    "alpha2Code": "KP",
-    "alpha3Code": "PRK",
-    "capital": "Pyongyang",
-    "flag": "prk.svg",
-    "name": "North Korea",
-    "region": "Asia",
-    "subregion": "Eastern Asia"
+    "alpha2Code": "NI",
+    "alpha3Code": "NIC",
+    "capital": "Managua",
+    "flag": "nic.svg",
+    "name": "Nicaragua",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "NL",
+    "alpha3Code": "NLD",
+    "capital": "Amsterdam",
+    "flag": "nld.svg",
+    "name": "Netherlands",
+    "region": "Europe",
+    "subregion": "Western Europe"
   },
   {
     "alpha2Code": "NO",
@@ -1177,6 +1204,33 @@
     "name": "Norway",
     "region": "Europe",
     "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "NP",
+    "alpha3Code": "NPL",
+    "capital": "Kathmandu",
+    "flag": "npl.svg",
+    "name": "Nepal",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "NR",
+    "alpha3Code": "NRU",
+    "capital": "Yaren",
+    "flag": "nru.svg",
+    "name": "Nauru",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "alpha2Code": "NZ",
+    "alpha3Code": "NZL",
+    "capital": "Wellington",
+    "flag": "nzl.svg",
+    "name": "New Zealand",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
   },
   {
     "alpha2Code": "OM",
@@ -1197,24 +1251,6 @@
     "subregion": "Southern Asia"
   },
   {
-    "alpha2Code": "PW",
-    "alpha3Code": "PLW",
-    "capital": "Ngerulmud",
-    "flag": "plw.svg",
-    "name": "Palau",
-    "region": "Oceania",
-    "subregion": "Micronesia"
-  },
-  {
-    "alpha2Code": "PS",
-    "alpha3Code": "PSE",
-    "capital": "Ramallah",
-    "flag": "pse.svg",
-    "name": "Palestine",
-    "region": "Asia",
-    "subregion": "Western Asia"
-},
-  {
     "alpha2Code": "PA",
     "alpha3Code": "PAN",
     "capital": "Panama City",
@@ -1222,24 +1258,6 @@
     "name": "Panama",
     "region": "Americas",
     "subregion": "Central America"
-  },
-  {
-    "alpha2Code": "PG",
-    "alpha3Code": "PNG",
-    "capital": "Port Moresby",
-    "flag": "png.svg",
-    "name": "Papua New Guinea",
-    "region": "Oceania",
-    "subregion": "Melanesia"
-  },
-  {
-    "alpha2Code": "PY",
-    "alpha3Code": "PRY",
-    "capital": "Asunción",
-    "flag": "pry.svg",
-    "name": "Paraguay",
-    "region": "Americas",
-    "subregion": "South America"
   },
   {
     "alpha2Code": "PE",
@@ -1260,6 +1278,24 @@
     "subregion": "South-Eastern Asia"
   },
   {
+    "alpha2Code": "PW",
+    "alpha3Code": "PLW",
+    "capital": "Ngerulmud",
+    "flag": "plw.svg",
+    "name": "Palau",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "alpha2Code": "PG",
+    "alpha3Code": "PNG",
+    "capital": "Port Moresby",
+    "flag": "png.svg",
+    "name": "Papua New Guinea",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
     "alpha2Code": "PL",
     "alpha3Code": "POL",
     "capital": "Warsaw",
@@ -1267,15 +1303,6 @@
     "name": "Poland",
     "region": "Europe",
     "subregion": "Eastern Europe"
-  },
-  {
-    "alpha2Code": "PT",
-    "alpha3Code": "PRT",
-    "capital": "Lisbon",
-    "flag": "prt.svg",
-    "name": "Portugal",
-    "region": "Europe",
-    "subregion": "Southern Europe"
   },
   {
     "alpha2Code": "PR",
@@ -1287,6 +1314,42 @@
     "subregion": "Caribbean"
   },
   {
+    "alpha2Code": "KP",
+    "alpha3Code": "PRK",
+    "capital": "Pyongyang",
+    "flag": "prk.svg",
+    "name": "North Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "capital": "Lisbon",
+    "flag": "prt.svg",
+    "name": "Portugal",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "PY",
+    "alpha3Code": "PRY",
+    "capital": "Asunción",
+    "flag": "pry.svg",
+    "name": "Paraguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "PS",
+    "alpha3Code": "PSE",
+    "capital": "Ramallah",
+    "flag": "pse.svg",
+    "name": "Palestine",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
     "alpha2Code": "QA",
     "alpha3Code": "QAT",
     "capital": "Doha",
@@ -1294,15 +1357,6 @@
     "name": "Qatar",
     "region": "Asia",
     "subregion": "Western Asia"
-  },
-  {
-    "alpha2Code": "XK",
-    "alpha3Code": "XXK",
-    "capital": "Pristina",
-    "flag": "unk.svg",
-    "name": "Kosovo",
-    "region": "Europe",
-    "subregion": "Eastern Europe"
   },
   {
     "alpha2Code": "RO",
@@ -1332,60 +1386,6 @@
     "subregion": "Eastern Africa"
   },
   {
-    "alpha2Code": "KN",
-    "alpha3Code": "KNA",
-    "capital": "Basseterre",
-    "flag": "kna.svg",
-    "name": "Saint Kitts and Nevis",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
-    "alpha2Code": "LC",
-    "alpha3Code": "LCA",
-    "capital": "Castries",
-    "flag": "lca.svg",
-    "name": "Saint Lucia",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
-    "alpha2Code": "VC",
-    "alpha3Code": "VCT",
-    "capital": "Kingstown",
-    "flag": "vct.svg",
-    "name": "Saint Vincent and the Grenadines",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
-    "alpha2Code": "WS",
-    "alpha3Code": "WSM",
-    "capital": "Apia",
-    "flag": "wsm.svg",
-    "name": "Samoa",
-    "region": "Oceania",
-    "subregion": "Polynesia"
-  },
-  {
-    "alpha2Code": "SM",
-    "alpha3Code": "SMR",
-    "capital": "City of San Marino",
-    "flag": "smr.svg",
-    "name": "San Marino",
-    "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "ST",
-    "alpha3Code": "STP",
-    "capital": "São Tomé",
-    "flag": "stp.svg",
-    "name": "Sao Tome and Principe",
-    "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
     "alpha2Code": "SA",
     "alpha3Code": "SAU",
     "capital": "Riyadh",
@@ -1393,6 +1393,15 @@
     "name": "Saudi Arabia",
     "region": "Asia",
     "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "SD",
+    "alpha3Code": "SDN",
+    "capital": "Khartoum",
+    "flag": "sdn.svg",
+    "name": "Sudan",
+    "region": "Africa",
+    "subregion": "Northern Africa"
   },
   {
     "alpha2Code": "SN",
@@ -1404,13 +1413,22 @@
     "subregion": "Western Africa"
   },
   {
-    "alpha2Code": "RS",
-    "alpha3Code": "SRB",
-    "capital": "Belgrade",
-    "flag": "srb.svg",
-    "name": "Serbia",
-    "region": "Europe",
-    "subregion": "Southern Europe"
+    "alpha2Code": "SG",
+    "alpha3Code": "SGP",
+    "capital": "Singapore",
+    "flag": "sgp.svg",
+    "name": "Singapore",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "SB",
+    "alpha3Code": "SLB",
+    "capital": "Honiara",
+    "flag": "slb.svg",
+    "name": "Solomon Islands",
+    "region": "Oceania",
+    "subregion": "Melanesia"
   },
   {
     "alpha2Code": "SL",
@@ -1422,13 +1440,67 @@
     "subregion": "Western Africa"
   },
   {
-    "alpha2Code": "SG",
-    "alpha3Code": "SGP",
-    "capital": "Singapore",
-    "flag": "sgp.svg",
-    "name": "Singapore",
-    "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "alpha2Code": "SV",
+    "alpha3Code": "SLV",
+    "capital": "San Salvador",
+    "flag": "slv.svg",
+    "name": "El Salvador",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "SM",
+    "alpha3Code": "SMR",
+    "capital": "City of San Marino",
+    "flag": "smr.svg",
+    "name": "San Marino",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "SO",
+    "alpha3Code": "SOM",
+    "capital": "Mogadishu",
+    "flag": "som.svg",
+    "name": "Somalia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "RS",
+    "alpha3Code": "SRB",
+    "capital": "Belgrade",
+    "flag": "srb.svg",
+    "name": "Serbia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "SS",
+    "alpha3Code": "SSD",
+    "capital": "Juba",
+    "flag": "ssd.svg",
+    "name": "South Sudan",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "ST",
+    "alpha3Code": "STP",
+    "capital": "São Tomé",
+    "flag": "stp.svg",
+    "name": "Sao Tome and Principe",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "SR",
+    "alpha3Code": "SUR",
+    "capital": "Paramaribo",
+    "flag": "sur.svg",
+    "name": "Suriname",
+    "region": "Americas",
+    "subregion": "South America"
   },
   {
     "alpha2Code": "SK",
@@ -1449,85 +1521,13 @@
     "subregion": "Southern Europe"
   },
   {
-    "alpha2Code": "SB",
-    "alpha3Code": "SLB",
-    "capital": "Honiara",
-    "flag": "slb.svg",
-    "name": "Solomon Islands",
-    "region": "Oceania",
-    "subregion": "Melanesia"
-  },
-  {
-    "alpha2Code": "SO",
-    "alpha3Code": "SOM",
-    "capital": "Mogadishu",
-    "flag": "som.svg",
-    "name": "Somalia",
-    "region": "Africa",
-    "subregion": "Eastern Africa"
-  },
-  {
-    "alpha2Code": "ZA",
-    "alpha3Code": "ZAF",
-    "capital": "Pretoria",
-    "flag": "zaf.svg",
-    "name": "South Africa",
-    "region": "Africa",
-    "subregion": "Southern Africa"
-  },
-  {
-    "alpha2Code": "KR",
-    "alpha3Code": "KOR",
-    "capital": "Seoul",
-    "flag": "kor.svg",
-    "name": "South Korea",
-    "region": "Asia",
-    "subregion": "Eastern Asia"
-  },
-  {
-    "alpha2Code": "SS",
-    "alpha3Code": "SSD",
-    "capital": "Juba",
-    "flag": "ssd.svg",
-    "name": "South Sudan",
-    "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
-    "alpha2Code": "ES",
-    "alpha3Code": "ESP",
-    "capital": "Madrid",
-    "flag": "esp.svg",
-    "name": "Spain",
+    "alpha2Code": "SE",
+    "alpha3Code": "SWE",
+    "capital": "Stockholm",
+    "flag": "swe.svg",
+    "name": "Sweden",
     "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "LK",
-    "alpha3Code": "LKA",
-    "capital": "Sri Jayawardenepura Kotte",
-    "flag": "lka.svg",
-    "name": "Sri Lanka",
-    "region": "Asia",
-    "subregion": "Southern Asia"
-  },
-  {
-    "alpha2Code": "SD",
-    "alpha3Code": "SDN",
-    "capital": "Khartoum",
-    "flag": "sdn.svg",
-    "name": "Sudan",
-    "region": "Africa",
-    "subregion": "Northern Africa"
-  },
-  {
-    "alpha2Code": "SR",
-    "alpha3Code": "SUR",
-    "capital": "Paramaribo",
-    "flag": "sur.svg",
-    "name": "Suriname",
-    "region": "Americas",
-    "subregion": "South America"
+    "subregion": "Northern Europe"
   },
   {
     "alpha2Code": "SZ",
@@ -1539,24 +1539,6 @@
     "subregion": "Southern Africa"
   },
   {
-    "alpha2Code": "SE",
-    "alpha3Code": "SWE",
-    "capital": "Stockholm",
-    "flag": "swe.svg",
-    "name": "Sweden",
-    "region": "Europe",
-    "subregion": "Northern Europe"
-  },
-  {
-    "alpha2Code": "CH",
-    "alpha3Code": "CHE",
-    "capital": "Bern",
-    "flag": "che.svg",
-    "name": "Switzerland",
-    "region": "Europe",
-    "subregion": "Western Europe"
-  },
-  {
     "alpha2Code": "SY",
     "alpha3Code": "SYR",
     "capital": "Damascus",
@@ -1566,31 +1548,22 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "TW",
-    "alpha3Code": "TWN",
-    "capital": "Taipei",
-    "flag": "twn.svg",
-    "name": "Taiwan",
-    "region": "Asia",
-    "subregion": "Eastern Asia"
-  },
-  {
-    "alpha2Code": "TJ",
-    "alpha3Code": "TJK",
-    "capital": "Dushanbe",
-    "flag": "tjk.svg",
-    "name": "Tajikistan",
-    "region": "Asia",
-    "subregion": "Central Asia"
-  },
-  {
-    "alpha2Code": "TZ",
-    "alpha3Code": "TZA",
-    "capital": "Dodoma",
-    "flag": "tza.svg",
-    "name": "Tanzania",
+    "alpha2Code": "TD",
+    "alpha3Code": "TCD",
+    "capital": "N'Djamena",
+    "flag": "tcd.svg",
+    "name": "Chad",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "TG",
+    "alpha3Code": "TGO",
+    "capital": "Lomé",
+    "flag": "tgo.svg",
+    "name": "Togo",
+    "region": "Africa",
+    "subregion": "Western Africa"
   },
   {
     "alpha2Code": "TH",
@@ -1602,6 +1575,24 @@
     "subregion": "South-Eastern Asia"
   },
   {
+    "alpha2Code": "TJ",
+    "alpha3Code": "TJK",
+    "capital": "Dushanbe",
+    "flag": "tjk.svg",
+    "name": "Tajikistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "TM",
+    "alpha3Code": "TKM",
+    "capital": "Ashgabat",
+    "flag": "tkm.svg",
+    "name": "Turkmenistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
     "alpha2Code": "TL",
     "alpha3Code": "TLS",
     "capital": "Dili",
@@ -1609,15 +1600,6 @@
     "name": "Timor-Leste",
     "region": "Asia",
     "subregion": "South-Eastern Asia"
-  },
-  {
-    "alpha2Code": "TG",
-    "alpha3Code": "TGO",
-    "capital": "Lomé",
-    "flag": "tgo.svg",
-    "name": "Togo",
-    "region": "Africa",
-    "subregion": "Western Africa"
   },
   {
     "alpha2Code": "TO",
@@ -1656,15 +1638,6 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "TM",
-    "alpha3Code": "TKM",
-    "capital": "Ashgabat",
-    "flag": "tkm.svg",
-    "name": "Turkmenistan",
-    "region": "Asia",
-    "subregion": "Central Asia"
-  },
-  {
     "alpha2Code": "TV",
     "alpha3Code": "TUV",
     "capital": "Funafuti",
@@ -1672,6 +1645,24 @@
     "name": "Tuvalu",
     "region": "Oceania",
     "subregion": "Polynesia"
+  },
+  {
+    "alpha2Code": "TW",
+    "alpha3Code": "TWN",
+    "capital": "Taipei",
+    "flag": "twn.svg",
+    "name": "Taiwan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "TZ",
+    "alpha3Code": "TZA",
+    "capital": "Dodoma",
+    "flag": "tza.svg",
+    "name": "Tanzania",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
   },
   {
     "alpha2Code": "UG",
@@ -1692,22 +1683,13 @@
     "subregion": "Eastern Europe"
   },
   {
-    "alpha2Code": "AE",
-    "alpha3Code": "ARE",
-    "capital": "Abu Dhabi",
-    "flag": "are.svg",
-    "name": "United Arab Emirates",
-    "region": "Asia",
-    "subregion": "Western Asia"
-  },
-  {
-    "alpha2Code": "GB",
-    "alpha3Code": "GBR",
-    "capital": "London",
-    "flag": "gbr.svg",
-    "name": "United Kingdom",
-    "region": "Europe",
-    "subregion": "Northern Europe"
+    "alpha2Code": "UY",
+    "alpha3Code": "URY",
+    "capital": "Montevideo",
+    "flag": "ury.svg",
+    "name": "Uruguay",
+    "region": "Americas",
+    "subregion": "South America"
   },
   {
     "alpha2Code": "US",
@@ -1719,15 +1701,6 @@
     "subregion": "Northern America"
   },
   {
-    "alpha2Code": "UY",
-    "alpha3Code": "URY",
-    "capital": "Montevideo",
-    "flag": "ury.svg",
-    "name": "Uruguay",
-    "region": "Americas",
-    "subregion": "South America"
-  },
-  {
     "alpha2Code": "UZ",
     "alpha3Code": "UZB",
     "capital": "Tashkent",
@@ -1737,13 +1710,13 @@
     "subregion": "Central Asia"
   },
   {
-    "alpha2Code": "VU",
-    "alpha3Code": "VUT",
-    "capital": "Port Vila",
-    "flag": "vut.svg",
-    "name": "Vanuatu",
-    "region": "Oceania",
-    "subregion": "Melanesia"
+    "alpha2Code": "VC",
+    "alpha3Code": "VCT",
+    "capital": "Kingstown",
+    "flag": "vct.svg",
+    "name": "Saint Vincent and the Grenadines",
+    "region": "Americas",
+    "subregion": "Caribbean"
   },
   {
     "alpha2Code": "VE",
@@ -1764,13 +1737,31 @@
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "EH",
-    "alpha3Code": "ESH",
-    "capital": "El Aaiún",
-    "flag": "esh.svg",
-    "name": "Western Sahara",
-    "region": "Africa",
-    "subregion": "Northern Africa"
+    "alpha2Code": "VU",
+    "alpha3Code": "VUT",
+    "capital": "Port Vila",
+    "flag": "vut.svg",
+    "name": "Vanuatu",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "alpha2Code": "WS",
+    "alpha3Code": "WSM",
+    "capital": "Apia",
+    "flag": "wsm.svg",
+    "name": "Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "alpha2Code": "XK",
+    "alpha3Code": "XXK",
+    "capital": "Pristina",
+    "flag": "unk.svg",
+    "name": "Kosovo",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
   },
   {
     "alpha2Code": "YE",
@@ -1780,6 +1771,15 @@
     "name": "Yemen",
     "region": "Asia",
     "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "ZA",
+    "alpha3Code": "ZAF",
+    "capital": "Pretoria",
+    "flag": "zaf.svg",
+    "name": "South Africa",
+    "region": "Africa",
+    "subregion": "Southern Africa"
   },
   {
     "alpha2Code": "ZM",
