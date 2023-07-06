@@ -1,3 +1,4 @@
+import { Tooltip } from "react-tooltip";
 import {
   ComposableMap,
   Geographies,
@@ -6,7 +7,7 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 
-import { Tooltip } from "react-tooltip";
+import { useGlobalState } from "../context/GlobalState";
 
 import geoUrl from "../data/countries-map.json";
 
@@ -16,13 +17,19 @@ import geoUrl from "../data/countries-map.json";
 /* const anotherURl = "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/africa.json" */
 
 function MapChart() {
-  /* const [content, setContent] = useState(""); */
+  const {
+    setCounter,
+    counter,
+    country,
+    setCountriesGuessed,
+    countriesGuessed,
+  } = useGlobalState();
 
   return (
-    <div className="flex flex-col justify-center items-center ">
+    <div className="flex flex-col justify-center items-center">
       <Tooltip id="tooltip" />
 
-      <div className="border-2  bg-white w-full ">
+      <div className="bg-white w-full">
         <ComposableMap data-tip="">
           <ZoomableGroup center={[6, -32]} zoom={0.85}>
             <Geographies geography={geoUrl}>
@@ -30,20 +37,27 @@ function MapChart() {
                 geographies.map((geo) => (
                   <Geography
                     data-tooltip-id="tooltip"
-                    data-tooltip-content={geo.id} /* {content} */
+                    data-tooltip-content={geo.properties.name} /* {content} */
                     data-tooltip-place="top"
                     data-tooltip-float="true"
                     key={geo.rsmKey}
                     geography={geo}
-                    fill="#0092CA"
-                    className="hover:fill-[#F53]"
-                    // available props: id, properties : {name, ["Alpha-2"]}
-                    onClick={() =>
-                      (document.getElementById("gameContainer").textContent =
-                        document.getElementById("gameContainer").textContent +
-                        ", " +
-                        geo.properties.name)
+                    className={
+                      countriesGuessed.includes(geo.id)
+                        ? "fill-[#0A0]"
+                        : "hover:fill-[#F53] fill-slate-900"
                     }
+                    onClick={(e) => {
+                      if (geo.id == country.alpha3Code) {
+                        setCountriesGuessed(
+                          countriesGuessed.concat(country.alpha3Code)
+                        );
+
+                        setCounter(counter + 1);
+                      } else {
+                        console.log(country.alpha3Code);
+                      }
+                    }}
                     /* onMouseEnter={() => {
                                             const { name } = geo.properties;
                                             setContent(`${name}`);

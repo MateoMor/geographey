@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      gcPadding: "#f2f2f2",
+      gcBorder: "#3A4750"
+    },
     extend: {},
   },
   plugins: [],
