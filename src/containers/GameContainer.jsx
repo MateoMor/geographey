@@ -5,7 +5,7 @@ function GameContainer() {
   return (
     <div
       id="gameContainer"
-      className=" absolute w-[35%] h-[16%] pointer-events-none right-[50%] translate-x-[50%] flex"
+      className=" absolute w-[35%] h-[14%] pointer-events-none right-[50%] translate-x-[50%] flex"
     >
       <Flag />
       <Info />

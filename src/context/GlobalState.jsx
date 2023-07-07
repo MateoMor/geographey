@@ -15,8 +15,6 @@ export const GlobalProvider = ({ children }) => {
 
   const [counter, setCounter] = useState(0);
 
-  const [flag, setFlag] = useState("");
-
   useEffect(() => {
     console.log(countriesGuessed);
     setCountry(
@@ -24,18 +22,7 @@ export const GlobalProvider = ({ children }) => {
         countries.filter((co) => !countriesGuessed.includes(co.alpha3Code))
       )
     );
-    setFlag(import(`../data/flags/${country.flag}`));
   }, [counter]);
-
-  // chatGPT code
-  useEffect(() => {
-    const loadFlag = async () => {
-      const module = await import(`../data/flags/${country.flag}`);
-      setFlag(module.default);
-    };
-
-    loadFlag();
-  }, [country.flag]);
 
   const randomElement = (array) => {
     let i = Math.floor(Math.random() * array.length);
@@ -45,7 +32,6 @@ export const GlobalProvider = ({ children }) => {
   return (
     <Context.Provider
       value={{
-        /* score: state.score, */
         randomElement,
         setCountry,
         country,
@@ -53,7 +39,6 @@ export const GlobalProvider = ({ children }) => {
         counter,
         setCountriesGuessed,
         countriesGuessed,
-        flag,
       }}
     >
       {children}

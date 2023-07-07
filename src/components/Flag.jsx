@@ -1,11 +1,11 @@
 import { useGlobalState } from "../context/GlobalState";
 
 function Flag() {
-  const { country, flag } = useGlobalState();
+  const { country } = useGlobalState();
 
   return (
-    <div className="h-full py-2 px-4 bg-gcPadding outline-gcBorder outline-2 outline rounded-b-md pointer-events-auto  ">
-      <img src={flag} alt={`${country.name} flag`} className="h-full" />
+    <div className="h-full py-2 px-4 bg-gcPadding outline-gcBorder outline-2 outline rounded-full pointer-events-auto flex flex-col justify-center">
+      <img src={`./flags/${country.flag}` }alt={`${country.name} flag`} className="w-20" />
     </div>
   );
 }
