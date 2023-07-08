@@ -42,10 +42,12 @@ function MapChart() {
                     data-tooltip-float="true"
                     key={geo.rsmKey}
                     geography={geo}
+                    stroke="#000"
+                    strokeWidth={0.4}
                     className={
                       countriesGuessed.includes(geo.id)
-                        ? "fill-[#0A0]"
-                        : "hover:fill-[#F53] fill-slate-900"
+                        ? "fill-[#178600]"
+                        : "hover:fill-[#F53] fill-[#27c3cb]"
                     }
                     onClick={(e) => {
                       if (geo.id == country.alpha3Code) {
