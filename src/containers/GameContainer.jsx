@@ -1,6 +1,7 @@
 import Info from "../components/Info";
 import CountryName from "../components/CountryName";
 import Flag from "../components/Flag";
+import ButtonsPad from './ButtonsPad'
 
 function GameContainer() {
   return (
@@ -11,6 +12,7 @@ function GameContainer() {
       <Info />
       <CountryName />
       <Flag />
+      <ButtonsPad/>
     </div>
   );
 }

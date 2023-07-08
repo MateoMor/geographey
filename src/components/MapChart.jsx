@@ -18,11 +18,12 @@ import geoUrl from "../data/countries-map.json";
 
 function MapChart() {
   const {
-    setCounter,
-    counter,
     country,
     setCountriesGuessed,
     countriesGuessed,
+    setCountriesPlayed,
+    countriesPlayed,
+    countriesSkipped,
   } = useGlobalState();
 
   return (
@@ -47,17 +48,16 @@ function MapChart() {
                     className={
                       countriesGuessed.includes(geo.id)
                         ? "fill-[#178600]"
-                        : "hover:fill-[#F53] fill-[#27c3cb]"
+                        : countriesSkipped.includes(geo.id) ? "fill-[#971a1a]" : "hover:fill-[#F53] fill-[#27c3cb]"
                     }
                     onClick={(e) => {
                       if (geo.id == country.alpha3Code) {
                         setCountriesGuessed(
                           countriesGuessed.concat(country.alpha3Code)
                         );
-
-                        setCounter(counter + 1);
-                      } else {
-                        console.log(country.alpha3Code);
+                        setCountriesPlayed(
+                          countriesPlayed.concat(country.alpha3Code)
+                        );
                       }
                     }}
                     /* onMouseEnter={() => {

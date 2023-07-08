@@ -9,20 +9,21 @@ export const useGlobalState = () => {
 };
 
 export const GlobalProvider = ({ children }) => {
-  const [country, setCountry] = useState("0");
+  const [country, setCountry] = useState("");
+
+  const [countriesPlayed, setCountriesPlayed] = useState([])
 
   const [countriesGuessed, setCountriesGuessed] = useState([]);
 
-  const [counter, setCounter] = useState(0);
+  const [countriesSkipped, setCountriesSkipped] = useState([])
 
   useEffect(() => {
-    console.log(countriesGuessed);
     setCountry(
       randomElement(
-        countries.filter((co) => !countriesGuessed.includes(co.alpha3Code))
+        countries.filter((co) => !countriesPlayed.includes(co.alpha3Code))
       )
     );
-  }, [counter]);
+  }, [countriesPlayed]);
 
   const randomElement = (array) => {
     let i = Math.floor(Math.random() * array.length);
@@ -32,13 +33,16 @@ export const GlobalProvider = ({ children }) => {
   return (
     <Context.Provider
       value={{
+        countriesLen: countries.length,
         randomElement,
         setCountry,
         country,
-        setCounter,
-        counter,
         setCountriesGuessed,
         countriesGuessed,
+        countriesPlayed,
+        setCountriesPlayed,
+        setCountriesSkipped,
+        countriesSkipped
       }}
     >
       {children}
