@@ -7,11 +7,11 @@ disablePageScroll();
 
 function App() {
     return (
-        <div>
+        <>
             <GlobalProvider>
                 <MainContainer />
             </GlobalProvider>
-        </div>
+        </>
     );
 }
 

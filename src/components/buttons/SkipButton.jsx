@@ -12,7 +12,7 @@ function SkipButton() {
 
   return (
     <button
-      className="pointer-events-auto h-full aspect-square flex justify-center items-center"
+      className="button bg-[#DA3648]"
       onClick={() => {
         if (countriesPlayed[countriesPlayed.length - 1] != country.alpha3Code) {
           setCountriesSkipped(countriesSkipped.concat(country.alpha3Code));

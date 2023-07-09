@@ -1,8 +1,10 @@
+import MenuButton from "../components/buttons/MenuButton";
 import SkipButton from "../components/buttons/SkipButton";
 
 function ButtonsPad() {
   return (
-    <div className="absolute bg-[#DA3648] -bottom-[85%] h-[60%] rounded-md">
+    <div className="absolute -bottom-[85%] h-[60%] rounded-md flex gap-2">
+      <MenuButton />
       <SkipButton />
     </div>
   );

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .container-border {
+    @apply border-2 border-gray-900;
+  }
+
+  .menu-button-effect {
+    @apply hover:translate-x-[-0.05em] hover:translate-y-[-0.05em] hover:shadow-[0.15em_0.15em] active:translate-x-[0.05em] active:translate-y-[0.05em] active:shadow-[0.05em_0.05em];
+
+  }
+
+  .button {
+    @apply h-full aspect-square flex justify-center items-center rounded-md duration-100 hover:scale-[1.077] active:scale-[1]
+  }
+
+  .menu-button {
+    @apply bg-secondaryColor px-4 py-1 rounded-md w-full container-border font-medium menu-button-effect;
+  }
+}

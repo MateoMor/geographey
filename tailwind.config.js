@@ -3,8 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        mainColor: "#F0A500",
+        secondaryColor: "#3F72AF",
+        neutralColor: "#d4d4d8",
+      },
       boxShadow: {
-        "customShadow": "-5px -5px 15px rgb(255,255,255,0.1), 5px, 5px, 15px rgb(0, 0, 0, 0.35)",
+        customShadow:
+          "-5px -5px 15px rgb(255,255,255,0.1), 5px, 5px, 15px rgb(0, 0, 0, 0.35)",
       },
     },
   },

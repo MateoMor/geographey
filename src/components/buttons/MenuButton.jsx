@@ -2,9 +2,9 @@ import { HiMenu } from "react-icons/hi";
 
 function MenuButton() {
   return (
-    <div>
-      <HiMenu />
-    </div>
+    <button className="button bg-secondaryColor" onClick={() => document.getElementById("menu").style.display = "flex"}>
+      <HiMenu size="50%"/>
+    </button>
   );
 }
 

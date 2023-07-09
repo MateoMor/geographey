@@ -4,7 +4,7 @@ function Info() {
   const { countriesPlayed, countriesLen } = useGlobalState();
 
   return (
-    <div className="w-[45%] pointer-events-auto flex justify-center">
+    <div className="w-[45%] flex justify-center">
       <p>{`${countriesPlayed.length}/${countriesLen}`}</p>
     </div>
   );
