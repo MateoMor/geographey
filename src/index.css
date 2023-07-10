@@ -21,17 +21,25 @@
   }
 
   .active {
-    @apply bg-secondaryColor text-black rounded-t-xl
+    @apply bg-pageColor text-black rounded-t-xl
   }
   
   .active::before{
-    @apply content-[""] absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-secondaryColor pointer-events-none -z-10
+    @apply content-[""] absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-pageColor pointer-events-none 
   }
   .active::after{
-    @apply content-[""] absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-secondaryColor pointer-events-none -z-10
+    @apply content-[""] absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-pageColor pointer-events-none 
   }
 
   .nav-link {
     @apply relative pt-3 px-5 text-white font-medium hover:active
   }
+
+  .map-card {
+    @apply bg-white
+  }
+}
+
+.test {
+  background-color: #0b6235;
 }

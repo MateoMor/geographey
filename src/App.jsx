@@ -13,14 +13,14 @@ function App() {
   return (
     <>
       <GlobalProvider>
-        {/* <MainContainer /> */}
+        <MainContainer />
 
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Header />}>
             <Route path="/" element={<Home />} />
             {<Route path="*" element={<Default />} />}
           </Route>
-        </Routes>
+        </Routes> */}
       </GlobalProvider>
     </>
   );

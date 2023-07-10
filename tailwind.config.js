@@ -7,6 +7,7 @@ export default {
         mainColor: "#F0A500",
         secondaryColor: "#3F72AF",
         neutralColor: "#d4d4d8",
+        pageColor: "#0092CA"
       },
       boxShadow: {
         customShadow:
