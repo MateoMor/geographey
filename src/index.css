@@ -19,4 +19,19 @@
   .menu-button {
     @apply bg-secondaryColor px-4 py-1 rounded-md w-full container-border font-medium menu-button-effect;
   }
+
+  .active {
+    @apply bg-secondaryColor text-black rounded-t-xl
+  }
+  
+  .active::before{
+    @apply content-[""] absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-secondaryColor pointer-events-none -z-10
+  }
+  .active::after{
+    @apply content-[""] absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-secondaryColor pointer-events-none -z-10
+  }
+
+  .nav-link {
+    @apply relative pt-3 px-5 text-white font-medium hover:active
+  }
 }
