@@ -1,15 +1,25 @@
 function Home() {
   return (
-    <div className="bg-pageColor h-[100vh]">
-      <section className="flex flex-wrap gap-6 justify-between px-[10%] py-[2%]">
-        <div className="map-card">World</div>
-        <div className="map-card">Americas</div>
-        <div className="map-card">Asia</div>
-        <div className="map-card">Africa</div>
-        <div className="map-card">Oceania</div>
+    <div className="bg-pageColor ">
+      <section className="flex flex-wrap gap-14 justify-evenly px-[15%] py-[5%]">
+        <div className="map-card">
+          <div className="map-card-content">World</div>
+        </div>
+        <div className="map-card">
+          <div className="map-card-content">Americas</div>
+        </div>
+        <div className="map-card">
+          <div className="map-card-content">Asia</div>
+        </div>
+        <div className="map-card">
+          <div className="map-card-content">Europe</div>
+        </div>
+        <div className="map-card">
+          <div className="map-card-content">Africa</div>
+        </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -9,11 +9,10 @@
 
   .menu-button-effect {
     @apply hover:translate-x-[-0.05em] hover:translate-y-[-0.05em] hover:shadow-[0.15em_0.15em] active:translate-x-[0.05em] active:translate-y-[0.05em] active:shadow-[0.05em_0.05em];
-
   }
 
   .button {
-    @apply h-full aspect-square flex justify-center items-center rounded-md duration-100 hover:scale-[1.077] active:scale-[1]
+    @apply h-full aspect-square flex justify-center items-center rounded-md duration-100 hover:scale-[1.077] active:scale-[1];
   }
 
   .menu-button {
@@ -21,21 +20,33 @@
   }
 
   .active {
-    @apply bg-pageColor text-black rounded-t-xl
+    @apply bg-pageColor text-black rounded-t-xl;
   }
-  
-  .active::before{
-    @apply content-[""] absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-pageColor pointer-events-none 
+
+  .active::before {
+    @apply content-[""] absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-pageColor pointer-events-none;
   }
-  .active::after{
-    @apply content-[""] absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-pageColor pointer-events-none 
+  .active::after {
+    @apply content-[""] absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-pageColor pointer-events-none;
   }
 
   .nav-link {
-    @apply relative pt-3 px-5 text-white font-medium hover:active
+    @apply relative pt-3 px-5 text-white font-medium hover:active;
+  }
+
+  .map-card-share-properties {
+    @apply rounded-lg duration-300 hover:rotate-0
   }
 
   .map-card {
-    @apply bg-white
+    @apply map-card-share-properties  w-[200px] h-[210px] overflow-visible cursor-pointer relative rotate-[5deg]  
+  }
+
+  .map-card::before {
+    @apply map-card-share-properties content-[""] absolute block w-[100%] h-[100%] bg-mainColor -rotate-[10deg]  
+  }
+
+  .map-card-content {
+    @apply map-card-share-properties absolute w-[100%] h-[100%] bg-white shadow-[0px_0px_5px_1px_#00000046]
   }
 }
