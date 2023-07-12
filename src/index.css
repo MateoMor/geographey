@@ -39,14 +39,11 @@
   }
 
   .map-card {
-    @apply map-card-share-properties  w-[200px] h-[210px] overflow-visible cursor-pointer relative rotate-[5deg]  
+    @apply map-card-share-properties  w-[250px] h-[260px] overflow-visible cursor-pointer relative rotate-[5deg]  
   }
 
   .map-card::before {
     @apply map-card-share-properties content-[""] absolute block w-[100%] h-[100%] bg-mainColor -rotate-[10deg]  
   }
 
-  .map-card-content {
-    @apply map-card-share-properties absolute w-[100%] h-[100%] bg-white shadow-[0px_0px_5px_1px_#00000046]
-  }
 }
