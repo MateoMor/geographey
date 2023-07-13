@@ -6,13 +6,18 @@ export default {
       colors: {
         mainColor: "#F0A500",
         secondaryColor: "#3F72AF",
-        neutralColor: "#d4d4d8",
-        pageColor: "#0092CA"
+        neutralColor: "#dfdfe2",
+        pageColor: "#0092CA",
+        wrong: "#971a1a",
+        correct: "#178600",
       },
       boxShadow: {
         customShadow:
           "-5px -5px 15px rgb(255,255,255,0.1), 5px, 5px, 15px rgb(0, 0, 0, 0.35)",
       },
+      fontFamily:{
+        quantico: "'Quantico', sans-serif"
+      }
     },
   },
   plugins: [],

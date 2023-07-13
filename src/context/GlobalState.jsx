@@ -1,3 +1,5 @@
+import { useStopwatch } from "react-timer-hook";
+
 import { createContext, useContext, useEffect, useState } from "react";
 import countries from "../data/countries.json";
 
@@ -11,11 +13,11 @@ export const useGlobalState = () => {
 export const GlobalProvider = ({ children }) => {
   const [country, setCountry] = useState("");
 
-  const [countriesPlayed, setCountriesPlayed] = useState([])
+  const [countriesPlayed, setCountriesPlayed] = useState([]);
 
   const [countriesGuessed, setCountriesGuessed] = useState([]);
 
-  const [countriesSkipped, setCountriesSkipped] = useState([])
+  const [countriesSkipped, setCountriesSkipped] = useState([]);
 
   useEffect(() => {
     setCountry(
@@ -30,6 +32,9 @@ export const GlobalProvider = ({ children }) => {
     return array[i];
   };
 
+  const { seconds, minutes, hours, start, pause, reset } =
+    useStopwatch({ autoStart: true });
+
   return (
     <Context.Provider
       value={{
@@ -42,7 +47,13 @@ export const GlobalProvider = ({ children }) => {
         countriesPlayed,
         setCountriesPlayed,
         setCountriesSkipped,
-        countriesSkipped
+        countriesSkipped,
+        seconds,
+        minutes,
+        hours,
+        start,
+        pause,
+        reset,
       }}
     >
       {children}

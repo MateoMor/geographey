@@ -8,6 +8,7 @@ function SkipButton() {
     countriesSkipped,
     setCountriesPlayed,
     countriesPlayed,
+    start
   } = useGlobalState();
 
   return (

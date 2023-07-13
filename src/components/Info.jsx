@@ -1,11 +1,10 @@
-import { useGlobalState } from "../context/GlobalState";
+import AnswerCounter from "./AnswerCounter";
+import StopWatch from "./StopWatch";
 
 function Info() {
-  const { countriesPlayed, countriesLen } = useGlobalState();
-
   return (
-    <div className="w-[45%] flex justify-center">
-      <p>{`${countriesPlayed.length}/${countriesLen}`}</p>
+    <div className="w-[45%] flex justify-evenly">
+      <AnswerCounter />
     </div>
   );
 }

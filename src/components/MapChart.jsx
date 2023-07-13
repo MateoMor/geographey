@@ -47,8 +47,8 @@ function MapChart() {
                     strokeWidth={0.4}
                     className={
                       countriesGuessed.includes(geo.id)
-                        ? "fill-[#178600]"
-                        : countriesSkipped.includes(geo.id) ? "fill-[#971a1a]" : "hover:fill-[#F53] fill-[#27c3cb]"
+                        ? "fill-correct"
+                        : countriesSkipped.includes(geo.id) ? "fill-wrong" : "hover:fill-[#F53] fill-[#27c3cb]"
                     }
                     onClick={(e) => {
                       if (geo.id == country.alpha3Code) {
