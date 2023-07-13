@@ -35,15 +35,15 @@
   }
 
   .map-card-share-properties {
-    @apply rounded-lg duration-300 hover:rotate-0
+    @apply rounded-lg duration-300 /* hover:rotate-0 */
   }
 
   .map-card {
-    @apply map-card-share-properties  w-[250px] h-[260px] overflow-visible cursor-pointer relative rotate-[5deg]  
+    @apply map-card-share-properties  w-[250px] h-[270px] overflow-visible cursor-pointer relative hover:-translate-x-4
   }
 
   .map-card::before {
-    @apply map-card-share-properties content-[""] absolute block w-[100%] h-[100%] bg-mainColor -rotate-[10deg]  
+    @apply map-card-share-properties content-[""] absolute block w-[100%] h-[100%] bg-mainColor translate-x-2 hover:translate-x-14
   }
 
 }

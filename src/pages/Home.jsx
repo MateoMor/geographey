@@ -3,12 +3,12 @@ import LayoutCard from "../components/LayoutCard";
 function Home() {
   return (
     <div className="bg-pageColor ">
-      <section className="flex flex-wrap gap-14 justify-evenly px-[13%] py-[5%]">
-        <LayoutCard name="World" imgPath="/world.svg"/>
-        <LayoutCard name="Americas" imgPath="/americas.svg"/>
-        <LayoutCard name="Asia" imgPath="/asia.svg"/>
-        <LayoutCard name="Europe" imgPath="/europe.svg"/>
-        <LayoutCard name="Africa" imgPath="/africa.svg"/>
+      <section className="flex flex-wrap gap-14 justify-evenly px-[11%] py-[5%]">
+        <LayoutCard name="World" imgPath="/maps-images/world.svg"/>
+        <LayoutCard name="Americas" imgPath="/maps-images/americas.svg"/>
+        <LayoutCard name="Asia" imgPath="/maps-images/asia.svg"/>
+        <LayoutCard name="Europe" imgPath="/maps-images/europe.svg"/>
+        <LayoutCard name="Africa" imgPath="/maps-images/africa.svg"/>
       </section>
     </div>
   );
