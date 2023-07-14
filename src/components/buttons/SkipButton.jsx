@@ -21,7 +21,7 @@ function SkipButton() {
         }
       }}
     >
-      <HiChevronDoubleRight size="50%" />
+      <HiChevronDoubleRight size="60%" />
     </button>
   );
 }

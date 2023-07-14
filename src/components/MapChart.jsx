@@ -3,7 +3,6 @@ import {
   ComposableMap,
   Geographies,
   Geography,
-  Annotation,
   ZoomableGroup,
 } from "react-simple-maps";
 
@@ -48,7 +47,9 @@ function MapChart() {
                     className={
                       countriesGuessed.includes(geo.id)
                         ? "fill-correct"
-                        : countriesSkipped.includes(geo.id) ? "fill-wrong" : "hover:fill-[#F53] fill-[#27c3cb]"
+                        : countriesSkipped.includes(geo.id)
+                        ? "fill-wrong"
+                        : "hover:fill-[#F53] fill-[#27c3cb]"
                     }
                     onClick={(e) => {
                       if (geo.id == country.alpha3Code) {
@@ -60,37 +61,10 @@ function MapChart() {
                         );
                       }
                     }}
-                    /* onMouseEnter={() => {
-                                            const { name } = geo.properties;
-                                            setContent(`${name}`);
-                                        }}
-                                        onMouseLeave={() => {
-                                            setContent("");
-                                        }} */
                   />
                 ))
               }
             </Geographies>
-            {/* <Annotation
-                            subject={[1.5218, 42.5063]}
-                            dx={-90}
-                            dy={-30}
-                            curve={0.5}
-                            connectorProps={{
-                                stroke: "#FF5933",
-                                strokeWidth: 1,
-                                strokeLinecap: "round",
-                            }}
-                        >
-                            <text
-                                x="-8"
-                                textAnchor="end"
-                                alignmentBaseline="middle"
-                                fill="#F53"
-                            >
-                                {"Andorra"}
-                            </text>
-                        </Annotation> */}
           </ZoomableGroup>
         </ComposableMap>
       </div>

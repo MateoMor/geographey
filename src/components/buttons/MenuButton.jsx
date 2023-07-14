@@ -12,7 +12,7 @@ function MenuButton() {
         pause();
       }}
     >
-      <HiMenu size="50%" />
+      <HiMenu size="60%" />
     </button>
   );
 }
