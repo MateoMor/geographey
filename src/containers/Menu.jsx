@@ -1,7 +1,7 @@
 import { useGlobalState } from "../context/GlobalState";
 
 function Menu() {
-  const { start } = useGlobalState();
+  const { start, resetGame } = useGlobalState();
 
   return (
     <div
@@ -21,7 +21,7 @@ function Menu() {
         <button id="resume" className="menu-button">
           RESUME
         </button>
-        <button className="menu-button">NEW GAME</button>
+        <button className="menu-button" onClick={() => resetGame()}>RESTART</button>
         <button className="menu-button">MAIN MENU</button>
       </div>
     </div>

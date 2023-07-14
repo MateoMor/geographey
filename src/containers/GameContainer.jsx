@@ -9,7 +9,7 @@ function GameContainer() {
     <div className="absolute w-[100%] h-[15%] pointer-events-none pt-6 px-3 flex justify-between ">
       <div
         id="gameContainer"
-        className="bg-neutralColor relative w-[26%] min-w-[280px] h-[100%] flex items-center  rounded-l-xl container-border pointer-events-auto"
+        className="bg-neutralColor relative w-[26%] min-w-[280px] h-[100%] flex items-center  rounded-l-2xl container-border pointer-events-auto"
       >
         <Info />
         <CountryName />

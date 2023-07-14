@@ -32,8 +32,17 @@ export const GlobalProvider = ({ children }) => {
     return array[i];
   };
 
-  const { seconds, minutes, hours, start, pause, reset } =
-    useStopwatch({ autoStart: true });
+  const { seconds, minutes, hours, start, pause, reset } = useStopwatch({
+    autoStart: true,
+  });
+
+  const resetGame = () => {
+    document.getElementById("menu").style.display = "none";
+    reset();
+    setCountriesPlayed([]);
+    setCountriesGuessed([]);
+    setCountriesSkipped([]);
+  };
 
   return (
     <Context.Provider
@@ -53,7 +62,7 @@ export const GlobalProvider = ({ children }) => {
         hours,
         start,
         pause,
-        reset,
+        resetGame,
       }}
     >
       {children}
