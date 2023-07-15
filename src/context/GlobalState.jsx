@@ -19,12 +19,19 @@ export const GlobalProvider = ({ children }) => {
 
   const [countriesSkipped, setCountriesSkipped] = useState([]);
 
+  const [gameFinished, setGameFinished] = useState(true);
+
   useEffect(() => {
-    setCountry(
-      randomElement(
-        countries.filter((co) => !countriesPlayed.includes(co.alpha3Code))
-      )
-    );
+    if (countriesPlayed.length != countries.length) {
+      setCountry(
+        randomElement(
+          countries.filter((co) => !countriesPlayed.includes(co.alpha3Code))
+        )
+      );
+    } else {
+      setGameFinished(true)
+      document.getElementById("resultButton").style.display = "flex";
+    }
   }, [countriesPlayed]);
 
   const randomElement = (array) => {
@@ -42,6 +49,7 @@ export const GlobalProvider = ({ children }) => {
     setCountriesPlayed([]);
     setCountriesGuessed([]);
     setCountriesSkipped([]);
+    setGameFinished(false);
   };
 
   return (
@@ -63,6 +71,7 @@ export const GlobalProvider = ({ children }) => {
         start,
         pause,
         resetGame,
+        gameFinished,
       }}
     >
       {children}

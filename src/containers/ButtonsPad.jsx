@@ -1,6 +1,7 @@
 import MenuButton from "../components/buttons/MenuButton";
 import HintButton from "../components/buttons/HintButton";
 import SkipButton from "../components/buttons/SkipButton";
+import ResultButton from "../components/buttons/ResultButton";
 
 function ButtonsPad() {
   return (
@@ -8,6 +9,7 @@ function ButtonsPad() {
       <MenuButton />
       <HintButton />
       <SkipButton />
+      <ResultButton />
     </div>
   );
 }

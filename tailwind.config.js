@@ -10,6 +10,9 @@ export default {
         pageColor: "#0092CA",
         wrong: "#971a1a",
         correct: "#178600",
+        bronce: "#D47835",
+        silver: "#949091",
+        gold: "#DDA430",
       },
       boxShadow: {
         customShadow:

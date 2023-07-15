@@ -63,15 +63,6 @@
     "subregion": "Western Asia"
   },
   {
-    "alpha2Code": "AG",
-    "alpha3Code": "ATG",
-    "capital": "Saint John's",
-    "flag": "atg.svg",
-    "name": "Antigua and Barbuda",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
     "alpha2Code": "AU",
     "alpha3Code": "AUS",
     "capital": "Canberra",
@@ -216,15 +207,6 @@
     "subregion": "South America"
   },
   {
-    "alpha2Code": "BB",
-    "alpha3Code": "BRB",
-    "capital": "Bridgetown",
-    "flag": "brb.svg",
-    "name": "Barbados",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
     "alpha2Code": "BN",
     "alpha3Code": "BRN",
     "capital": "Bandar Seri Begawan",
@@ -342,24 +324,6 @@
     "subregion": "South America"
   },
   {
-    "alpha2Code": "KM",
-    "alpha3Code": "COM",
-    "capital": "Moroni",
-    "flag": "com.svg",
-    "name": "Comoros",
-    "region": "Africa",
-    "subregion": "Eastern Africa"
-  },
-  {
-    "alpha2Code": "CV",
-    "alpha3Code": "CPV",
-    "capital": "Praia",
-    "flag": "cpv.svg",
-    "name": "Cabo Verde",
-    "region": "Africa",
-    "subregion": "Western Africa"
-  },
-  {
     "alpha2Code": "CR",
     "alpha3Code": "CRI",
     "capital": "San José",
@@ -412,15 +376,6 @@
     "name": "Djibouti",
     "region": "Africa",
     "subregion": "Eastern Africa"
-  },
-  {
-    "alpha2Code": "DM",
-    "alpha3Code": "DMA",
-    "capital": "Roseau",
-    "flag": "dma.svg",
-    "name": "Dominica",
-    "region": "Americas",
-    "subregion": "Caribbean"
   },
   {
     "alpha2Code": "DK",
@@ -540,15 +495,6 @@
     "subregion": "Western Europe"
   },
   {
-    "alpha2Code": "FM",
-    "alpha3Code": "FSM",
-    "capital": "Palikir",
-    "flag": "fsm.svg",
-    "name": "Micronesia",
-    "region": "Oceania",
-    "subregion": "Micronesia"
-  },
-  {
     "alpha2Code": "GA",
     "alpha3Code": "GAB",
     "capital": "Libreville",
@@ -628,15 +574,6 @@
     "name": "Greece",
     "region": "Europe",
     "subregion": "Southern Europe"
-  },
-  {
-    "alpha2Code": "GD",
-    "alpha3Code": "GRD",
-    "capital": "St. George's",
-    "flag": "grd.svg",
-    "name": "Grenada",
-    "region": "Americas",
-    "subregion": "Caribbean"
   },
   {
     "alpha2Code": "GL",
@@ -846,24 +783,6 @@
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "KI",
-    "alpha3Code": "KIR",
-    "capital": "South Tarawa",
-    "flag": "kir.svg",
-    "name": "Kiribati",
-    "region": "Oceania",
-    "subregion": "Micronesia"
-  },
-  {
-    "alpha2Code": "KN",
-    "alpha3Code": "KNA",
-    "capital": "Basseterre",
-    "flag": "kna.svg",
-    "name": "Saint Kitts and Nevis",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
     "alpha2Code": "KR",
     "alpha3Code": "KOR",
     "capital": "Seoul",
@@ -916,15 +835,6 @@
     "name": "Libya",
     "region": "Africa",
     "subregion": "Northern Africa"
-  },
-  {
-    "alpha2Code": "LC",
-    "alpha3Code": "LCA",
-    "capital": "Castries",
-    "flag": "lca.svg",
-    "name": "Saint Lucia",
-    "region": "Americas",
-    "subregion": "Caribbean"
   },
   {
     "alpha2Code": "LI",
@@ -990,15 +900,6 @@
     "subregion": "Northern Africa"
   },
   {
-    "alpha2Code": "MC",
-    "alpha3Code": "MCO",
-    "capital": "Monaco",
-    "flag": "mco.svg",
-    "name": "Monaco",
-    "region": "Europe",
-    "subregion": "Western Europe"
-  },
-  {
     "alpha2Code": "MD",
     "alpha3Code": "MDA",
     "capital": "Chișinău",
@@ -1017,15 +918,6 @@
     "subregion": "Eastern Africa"
   },
   {
-    "alpha2Code": "MV",
-    "alpha3Code": "MDV",
-    "capital": "Malé",
-    "flag": "mdv.svg",
-    "name": "Maldives",
-    "region": "Asia",
-    "subregion": "Southern Asia"
-  },
-  {
     "alpha2Code": "MX",
     "alpha3Code": "MEX",
     "capital": "Mexico City",
@@ -1033,15 +925,6 @@
     "name": "Mexico",
     "region": "Americas",
     "subregion": "Central America"
-  },
-  {
-    "alpha2Code": "MH",
-    "alpha3Code": "MHL",
-    "capital": "Majuro",
-    "flag": "mhl.svg",
-    "name": "Marshall Islands",
-    "region": "Oceania",
-    "subregion": "Micronesia"
   },
   {
     "alpha2Code": "MK",
@@ -1060,15 +943,6 @@
     "name": "Mali",
     "region": "Africa",
     "subregion": "Western Africa"
-  },
-  {
-    "alpha2Code": "MT",
-    "alpha3Code": "MLT",
-    "capital": "Valletta",
-    "flag": "mlt.svg",
-    "name": "Malta",
-    "region": "Europe",
-    "subregion": "Southern Europe"
   },
   {
     "alpha2Code": "MM",
@@ -1114,15 +988,6 @@
     "name": "Mauritania",
     "region": "Africa",
     "subregion": "Western Africa"
-  },
-  {
-    "alpha2Code": "MU",
-    "alpha3Code": "MUS",
-    "capital": "Port Louis",
-    "flag": "mus.svg",
-    "name": "Mauritius",
-    "region": "Africa",
-    "subregion": "Eastern Africa"
   },
   {
     "alpha2Code": "MW",
@@ -1276,15 +1141,6 @@
     "name": "Philippines",
     "region": "Asia",
     "subregion": "South-Eastern Asia"
-  },
-  {
-    "alpha2Code": "PW",
-    "alpha3Code": "PLW",
-    "capital": "Ngerulmud",
-    "flag": "plw.svg",
-    "name": "Palau",
-    "region": "Oceania",
-    "subregion": "Micronesia"
   },
   {
     "alpha2Code": "PG",
@@ -1449,15 +1305,6 @@
     "subregion": "Central America"
   },
   {
-    "alpha2Code": "SM",
-    "alpha3Code": "SMR",
-    "capital": "City of San Marino",
-    "flag": "smr.svg",
-    "name": "San Marino",
-    "region": "Europe",
-    "subregion": "Southern Europe"
-  },
-  {
     "alpha2Code": "SO",
     "alpha3Code": "SOM",
     "capital": "Mogadishu",
@@ -1481,15 +1328,6 @@
     "capital": "Juba",
     "flag": "ssd.svg",
     "name": "South Sudan",
-    "region": "Africa",
-    "subregion": "Middle Africa"
-  },
-  {
-    "alpha2Code": "ST",
-    "alpha3Code": "STP",
-    "capital": "São Tomé",
-    "flag": "stp.svg",
-    "name": "Sao Tome and Principe",
     "region": "Africa",
     "subregion": "Middle Africa"
   },
@@ -1602,24 +1440,6 @@
     "subregion": "South-Eastern Asia"
   },
   {
-    "alpha2Code": "TO",
-    "alpha3Code": "TON",
-    "capital": "Nuku'alofa",
-    "flag": "ton.svg",
-    "name": "Tonga",
-    "region": "Oceania",
-    "subregion": "Polynesia"
-  },
-  {
-    "alpha2Code": "TT",
-    "alpha3Code": "TTO",
-    "capital": "Port of Spain",
-    "flag": "tto.svg",
-    "name": "Trinidad and Tobago",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
     "alpha2Code": "TN",
     "alpha3Code": "TUN",
     "capital": "Tunis",
@@ -1636,15 +1456,6 @@
     "name": "Turkey",
     "region": "Asia",
     "subregion": "Western Asia"
-  },
-  {
-    "alpha2Code": "TV",
-    "alpha3Code": "TUV",
-    "capital": "Funafuti",
-    "flag": "tuv.svg",
-    "name": "Tuvalu",
-    "region": "Oceania",
-    "subregion": "Polynesia"
   },
   {
     "alpha2Code": "TW",
@@ -1710,15 +1521,6 @@
     "subregion": "Central Asia"
   },
   {
-    "alpha2Code": "VC",
-    "alpha3Code": "VCT",
-    "capital": "Kingstown",
-    "flag": "vct.svg",
-    "name": "Saint Vincent and the Grenadines",
-    "region": "Americas",
-    "subregion": "Caribbean"
-  },
-  {
     "alpha2Code": "VE",
     "alpha3Code": "VEN",
     "capital": "Caracas",
@@ -1744,15 +1546,6 @@
     "name": "Vanuatu",
     "region": "Oceania",
     "subregion": "Melanesia"
-  },
-  {
-    "alpha2Code": "WS",
-    "alpha3Code": "WSM",
-    "capital": "Apia",
-    "flag": "wsm.svg",
-    "name": "Samoa",
-    "region": "Oceania",
-    "subregion": "Polynesia"
   },
   {
     "alpha2Code": "XK",
