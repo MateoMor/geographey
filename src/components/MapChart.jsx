@@ -1,4 +1,3 @@
-import { Tooltip } from "react-tooltip";
 import {
   ComposableMap,
   Geographies,
@@ -25,8 +24,6 @@ function MapChart() {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <Tooltip id="tooltip" />
-
       <div className="bg-white w-full">
         <ComposableMap data-tip="">
           <ZoomableGroup center={[6, -32]} zoom={0.85}>
@@ -34,11 +31,6 @@ function MapChart() {
               {({ geographies }) =>
                 geographies.map((geo) => (
                   <Geography
-                    data-tooltip-id="tooltip"
-                    data-tooltip-variant="warning"
-                    data-tooltip-content={geo.properties.name}
-                    data-tooltip-place="top"
-                    data-tooltip-float="true"
                     key={geo.rsmKey}
                     geography={geo}
                     stroke="#000"
