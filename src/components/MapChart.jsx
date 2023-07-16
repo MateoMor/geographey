@@ -10,11 +10,6 @@ import { useGlobalState } from "../context/GlobalState";
 
 import geoUrl from "../data/countries-map.json";
 
-/* const geoUrl =
-    "https://raw.githubusercontent.com/MateoMor/topojson/main/world-countries-sans-antarctica-some-changes.json"; */
-
-/* const anotherURl = "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/africa.json" */
-
 function MapChart() {
   const {
     country,
@@ -23,6 +18,9 @@ function MapChart() {
     setCountriesPlayed,
     countriesPlayed,
     countriesSkipped,
+    setCountriesSkipped,
+    setAttemp,
+    attemp,
   } = useGlobalState();
 
   return (
@@ -37,7 +35,8 @@ function MapChart() {
                 geographies.map((geo) => (
                   <Geography
                     data-tooltip-id="tooltip"
-                    data-tooltip-content={geo.properties.name} /* {content} */
+                    data-tooltip-variant="warning"
+                    data-tooltip-content={geo.properties.name}
                     data-tooltip-place="top"
                     data-tooltip-float="true"
                     key={geo.rsmKey}
@@ -51,7 +50,7 @@ function MapChart() {
                         ? "fill-wrong"
                         : "hover:fill-[#F53] fill-[#27c3cb]"
                     }
-                    onClick={(e) => {
+                    onClick={() => {
                       if (geo.id == country.alpha3Code) {
                         setCountriesGuessed(
                           countriesGuessed.concat(country.alpha3Code)
@@ -59,6 +58,17 @@ function MapChart() {
                         setCountriesPlayed(
                           countriesPlayed.concat(country.alpha3Code)
                         );
+                        setAttemp(true);
+                      } else if (attemp) {
+                        setAttemp(false);
+                      } else {
+                        setCountriesPlayed(
+                          countriesPlayed.concat(country.alpha3Code)
+                        );
+                        setCountriesSkipped(
+                          countriesSkipped.concat(country.alpha3Code)
+                        );
+                        setAttemp(true);
                       }
                     }}
                   />

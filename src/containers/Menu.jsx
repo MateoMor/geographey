@@ -1,7 +1,8 @@
+import WindowHeader from "../components/WindowHeader";
 import { useGlobalState } from "../context/GlobalState";
 
 function Menu() {
-  const { start, resetGame } = useGlobalState();
+  const { start, resetGame, gameFinished } = useGlobalState();
 
   return (
     <div
@@ -9,15 +10,15 @@ function Menu() {
       onClick={(e) => {
         if (e.target.id == "menu") {
           document.getElementById("menu").style.display = "none";
-          start()
+          if (!gameFinished) {
+            start()
+          }
         }
       }}
       className="window-background"
     >
       <div className="window-style gap-6 px-12 py-12 rounded-lg">
-        <h2 className="bg-mainColor absolute top-0 translate-y-[-50%] font-semibold container-border px-6 py-2 rounded-l-full rounded-r-full">
-          GEOGRAPHEY
-        </h2>
+        <WindowHeader text={"GEOGRAPHEY"}/>
         <button id="menu" className="menu-button">
           RESUME
         </button>

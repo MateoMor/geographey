@@ -4,7 +4,7 @@
 
 @layer components {
   .container-border {
-    @apply border-2 border-gray-900;
+    @apply border-2 border-borderColor;
   }
 
   .menu-button-effect {
@@ -55,6 +55,18 @@
   }
 
   .resultWindowButton {
-    @apply  w-[30%] min-w-[100px]
+    @apply  w-[30%] min-w-[100px] mx-5
+  }
+
+  .scoreBarTooltip {
+    @apply absolute top-0 bg-borderColor w-1 h-[100%]
+  }
+
+  .scorebarTooltpiCloud {
+    @apply absolute -left-[18px] -top-[400%] bg-scoreBarTooltipColor h-[40px] aspect-square rounded-lg flex justify-center items-center py-[3px]
+  }
+
+  .stadistics-text {
+    @apply font-bold text-2xl text-secondaryColor
   }
 }
