@@ -20,6 +20,7 @@ function MapChart() {
     setCountriesSkipped,
     setAttemp,
     attemp,
+    countriesLen
   } = useGlobalState();
 
   return (
@@ -53,7 +54,7 @@ function MapChart() {
                         setAttemp(true);
                       } else if (attemp) {
                         setAttemp(false);
-                      } else {
+                      } else if (countriesLen != countriesPlayed.length){
                         setCountriesPlayed(
                           countriesPlayed.concat(country.alpha3Code)
                         );
