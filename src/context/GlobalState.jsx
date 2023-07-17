@@ -21,7 +21,7 @@ export const GlobalProvider = ({ children }) => {
 
   const [gameFinished, setGameFinished] = useState(false);
 
-  const [score, setScore] = useState(10);
+  const [score, setScore] = useState(0);
 
   const [attemp, setAttemp] = useState(true)
 

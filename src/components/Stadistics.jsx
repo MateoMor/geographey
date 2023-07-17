@@ -22,7 +22,7 @@ function Stadistics() {
       </div>
       <div>
         <h3>Score:</h3>
-        <p className="stadistics-text">{score.toFixed(2)}%</p>
+        <p className="stadistics-text">{(score * 10).toFixed(2)}</p>
       </div>
     </div>
   );
