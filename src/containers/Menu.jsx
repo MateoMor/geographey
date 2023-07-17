@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import WindowHeader from "../components/WindowHeader";
 import { useGlobalState } from "../context/GlobalState";
 
@@ -25,7 +26,9 @@ function Menu() {
         <button className="menu-button" onClick={() => resetGame()}>
           RESTART
         </button>
-        <button className="menu-button">MENU</button>
+        <Link to="/geographey/" className="menu-button flex justify-center">
+          MENU
+        </Link>
       </div>
     </div>
   );

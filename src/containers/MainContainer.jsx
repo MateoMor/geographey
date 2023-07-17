@@ -1,11 +1,20 @@
+import { useEffect } from "react";
 import MapChart from "../components/MapChart";
 import { useGlobalState } from "../context/GlobalState";
 import GameContainer from "./GameContainer";
 import Menu from "./Menu";
 import ResultWindow from "./ResultWindow";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 function MainContainer() {
-  const { gameFinished } = useGlobalState();
+  const { gameFinished, resetGame } = useGlobalState();
+
+  useEffect(() => {
+    disablePageScroll()
+    window.scrollTo({top:0})
+    resetGame();
+  }, [])
+  
 
   return (
     <div>

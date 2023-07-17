@@ -3,6 +3,7 @@ import Stadistics from "../components/Stadistics";
 import ScoreBar from "../components/ScoreBar";
 import { useGlobalState } from "../context/GlobalState";
 import WindowHeader from "../components/WindowHeader";
+import { Link } from "react-router-dom";
 
 function ResultWindow() {
   const { resetGame, score, colors } = useGlobalState();
@@ -19,9 +20,23 @@ function ResultWindow() {
     >
       <div className="window-style w-[32%] min-w-[370px] h-[84%] flex p-4 rounded-lg">
         <section className="bg-neutralColor justify-items-center items-center h-[70%] w-[100%] grid grid-cols-2 grid-rows-3 rounded-t-lg">
-          <WindowHeader text="RESULTS"/>
+          <WindowHeader text="RESULTS" />
           <div className="w-[70%] bg-royalRed rounded-full aspect-square flex justify-center items-center row-span-2 container-border">
-            {score >= 100 ? <img src="/geographey/assets/diamond-trophy.svg" alt="" className="m-[15%]" /> : score >= 80 ? <GiTrophyCup size="70%" className="fill-gold" /> : score >= 50 ? <GiTrophyCup size="70%" className="fill-silver" /> : score >= 20 ? <GiTrophyCup size="70%" className="fill-bronce" /> : <GiTrophyCup size="70%"/>}
+            {score >= 100 ? (
+              <img
+                src="/geographey/assets/diamond-trophy.svg"
+                alt=""
+                className="m-[15%]"
+              />
+            ) : score >= 80 ? (
+              <GiTrophyCup size="70%" className="fill-gold" />
+            ) : score >= 50 ? (
+              <GiTrophyCup size="70%" className="fill-silver" />
+            ) : score >= 20 ? (
+              <GiTrophyCup size="70%" className="fill-bronce" />
+            ) : (
+              <GiTrophyCup size="70%" />
+            )}
           </div>
           <Stadistics />
           <ScoreBar />
@@ -38,7 +53,9 @@ function ResultWindow() {
           >
             Retry
           </button>
-          <button className="menu-button resultWindowButton">MENU</button>
+          <Link to="/geographey/">
+            <button className="menu-button resultWindowButton">MENU</button>
+          </Link>
         </section>
       </div>
     </div>

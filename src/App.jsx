@@ -7,20 +7,19 @@ import Default from "./pages/Default";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 
-disablePageScroll();
+/* disablePageScroll(); */
 
 function App() {
   return (
     <>
       <GlobalProvider>
-        <MainContainer />
-
-        {/* <Routes>
+        <Routes>
           <Route path="/geographey" element={<Header />}>
             <Route path="/geographey" element={<Home />} />
             {<Route path="*" element={<Default />} />}
           </Route>
-        </Routes> */}
+          <Route path="/geographey/world" element={<MainContainer />} />
+        </Routes>
       </GlobalProvider>
     </>
   );

@@ -23,15 +23,15 @@ export const GlobalProvider = ({ children }) => {
 
   const [score, setScore] = useState(0);
 
-  const [attemp, setAttemp] = useState(true)
+  const [attemp, setAttemp] = useState(true);
 
-  const [currentColor, setCurrentColor] = useState("#F53")
+  const [currentColor, setCurrentColor] = useState("#F53");
 
   const colors = {
     bronce: "#D47835",
     silver: "#949091",
-    gold: "#DDA430"
-  }
+    gold: "#DDA430",
+  };
 
   useEffect(() => {
     if (countriesPlayed.length != countries.length) {
@@ -41,7 +41,7 @@ export const GlobalProvider = ({ children }) => {
         )
       );
     } else {
-      pause()
+      pause();
       setGameFinished(true);
       setScore((countriesGuessed.length / countries.length) * 100);
     }
@@ -49,9 +49,11 @@ export const GlobalProvider = ({ children }) => {
 
   useEffect(() => {
     if (gameFinished) {
-      document.getElementById("scoreBar").style.transform = `translateX(${score}%)`
+      document.getElementById(
+        "scoreBar"
+      ).style.transform = `translateX(${score}%)`;
     }
-  }, [score])
+  }, [score]);
 
   const randomElement = (array) => {
     let i = Math.floor(Math.random() * array.length);
@@ -96,7 +98,9 @@ export const GlobalProvider = ({ children }) => {
         attemp,
         setAttemp,
         currentColor,
-        setCurrentColor
+        setCurrentColor,
+        reset,
+        setGameFinished,
       }}
     >
       {children}
