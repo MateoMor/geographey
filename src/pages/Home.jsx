@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <div className="bg-pageColor ">
-      <section className="flex flex-wrap gap-14 justify-evenly px-[11%] py-[5%]">
+      <section className="flex flex-wrap gap-10 justify-evenly px-[11%] py-[5%]">
         <LayoutCard
           to="/geographey/world"
           name="World"
