@@ -18,8 +18,6 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
     countriesPlayed,
     countriesSkipped,
     setCountriesSkipped,
-    setAttemp,
-    attemp,
     countriesLen,
   } = useGlobalState();
 
@@ -27,7 +25,12 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
     <div className="flex flex-col justify-center items-center">
       <div className="bg-white w-full">
         <ComposableMap data-tip="">
-          <ZoomableGroup center={center} zoom={zoom} minZoom={minZoom} maxZoom={12}>
+          <ZoomableGroup
+            center={center}
+            zoom={zoom}
+            minZoom={minZoom}
+            maxZoom={12}
+          >
             <Geographies geography={jsonMap}>
               {({ geographies }) =>
                 geographies.map((geo) => (
@@ -51,17 +54,16 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
                         setCountriesPlayed(
                           countriesPlayed.concat(country.alpha3Code)
                         );
-                        setAttemp(true);
-                      } else if (attemp) {
-                        setAttemp(false);
-                      } else if (countriesLen != countriesPlayed.length) {
+                      } else if (
+                        countriesLen != countriesPlayed.length &&
+                        !countriesPlayed.includes(geo.id)
+                      ) {
                         setCountriesPlayed(
                           countriesPlayed.concat(country.alpha3Code)
                         );
                         setCountriesSkipped(
                           countriesSkipped.concat(country.alpha3Code)
                         );
-                        setAttemp(true);
                       }
                     }}
                   />

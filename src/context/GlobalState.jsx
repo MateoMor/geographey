@@ -1,7 +1,6 @@
 import { useStopwatch } from "react-timer-hook";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import worldData from "../data/world/world-data.json";
 
 export const Context = createContext();
 
@@ -22,8 +21,6 @@ export const GlobalProvider = ({ children }) => {
   const [gameFinished, setGameFinished] = useState(false);
 
   const [score, setScore] = useState(0);
-
-  const [attemp, setAttemp] = useState(true);
 
   const [currentColor, setCurrentColor] = useState("#F53");
 
@@ -97,8 +94,6 @@ export const GlobalProvider = ({ children }) => {
         gameFinished,
         score,
         colors,
-        attemp,
-        setAttemp,
         currentColor,
         setCurrentColor,
         reset,
