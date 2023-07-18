@@ -7,9 +7,9 @@ import {
 
 import { useGlobalState } from "../context/GlobalState";
 
-import geoUrl from "../data/countries-map.json";
+/* import geoUrl from "../data/world/map.json"; */
 
-function MapChart() {
+function MapChart({ jsonData, center, zoom, minZoom, strokeWidth }) {
   const {
     country,
     setCountriesGuessed,
@@ -20,22 +20,22 @@ function MapChart() {
     setCountriesSkipped,
     setAttemp,
     attemp,
-    countriesLen
+    countriesLen,
   } = useGlobalState();
 
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="bg-white w-full">
         <ComposableMap data-tip="">
-          <ZoomableGroup center={[6, -32]} zoom={0.85}>
-            <Geographies geography={geoUrl}>
+          <ZoomableGroup center={center} zoom={zoom} minZoom={minZoom} maxZoom={12}>
+            <Geographies geography={jsonData}>
               {({ geographies }) =>
                 geographies.map((geo) => (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
                     stroke="#000"
-                    strokeWidth={0.4}
+                    strokeWidth={strokeWidth}
                     className={
                       countriesGuessed.includes(geo.id)
                         ? "fill-correct"
@@ -54,7 +54,7 @@ function MapChart() {
                         setAttemp(true);
                       } else if (attemp) {
                         setAttemp(false);
-                      } else if (countriesLen != countriesPlayed.length){
+                      } else if (countriesLen != countriesPlayed.length) {
                         setCountriesPlayed(
                           countriesPlayed.concat(country.alpha3Code)
                         );

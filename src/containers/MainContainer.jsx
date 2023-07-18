@@ -6,7 +6,7 @@ import Menu from "./Menu";
 import ResultWindow from "./ResultWindow";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-function MainContainer() {
+function MainContainer({jsonData, center, zoom, minZoom, strokeWidth}) {
   const { gameFinished, resetGame } = useGlobalState();
 
   useEffect(() => {
@@ -19,7 +19,7 @@ function MainContainer() {
   return (
     <div>
       <GameContainer />
-      <MapChart />
+      <MapChart jsonData={jsonData} center={center} zoom={zoom} minZoom={minZoom} strokeWidth={strokeWidth}/>
       <Menu />
       {gameFinished && <ResultWindow />}
     </div>
