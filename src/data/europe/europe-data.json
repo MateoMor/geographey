@@ -1,0 +1,371 @@
+[
+  {
+    "alpha2Code": "AL",
+    "alpha3Code": "ALB",
+    "capital": "Tirana",
+    "flag": "alb.svg",
+    "name": "Albania",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "AD",
+    "alpha3Code": "AND",
+    "capital": "Andorra la Vella",
+    "flag": "and.svg",
+    "name": "Andorra",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "AT",
+    "alpha3Code": "AUT",
+    "capital": "Vienna",
+    "flag": "aut.svg",
+    "name": "Austria",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "BE",
+    "alpha3Code": "BEL",
+    "capital": "Brussels",
+    "flag": "bel.svg",
+    "name": "Belgium",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "BG",
+    "alpha3Code": "BGR",
+    "capital": "Sofia",
+    "flag": "bgr.svg",
+    "name": "Bulgaria",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "BA",
+    "alpha3Code": "BIH",
+    "capital": "Sarajevo",
+    "flag": "bih.svg",
+    "name": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "BY",
+    "alpha3Code": "BLR",
+    "capital": "Minsk",
+    "flag": "blr.svg",
+    "name": "Belarus",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "CH",
+    "alpha3Code": "CHE",
+    "capital": "Bern",
+    "flag": "che.svg",
+    "name": "Switzerland",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "CY",
+    "alpha3Code": "CYP",
+    "capital": "Nicosia",
+    "flag": "cyp.svg",
+    "name": "Cyprus",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "CZ",
+    "alpha3Code": "CZE",
+    "capital": "Prague",
+    "flag": "cze.svg",
+    "name": "Czech Republic",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "DE",
+    "alpha3Code": "DEU",
+    "capital": "Berlin",
+    "flag": "deu.svg",
+    "name": "Germany",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "DK",
+    "alpha3Code": "DNK",
+    "capital": "Copenhagen",
+    "flag": "dnk.svg",
+    "name": "Denmark",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "capital": "Madrid",
+    "flag": "esp.svg",
+    "name": "Spain",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "EE",
+    "alpha3Code": "EST",
+    "capital": "Tallinn",
+    "flag": "est.svg",
+    "name": "Estonia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "FI",
+    "alpha3Code": "FIN",
+    "capital": "Helsinki",
+    "flag": "fin.svg",
+    "name": "Finland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "FR",
+    "alpha3Code": "FRA",
+    "capital": "Paris",
+    "flag": "fra.svg",
+    "name": "France",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "GB",
+    "alpha3Code": "GBR",
+    "capital": "London",
+    "flag": "gbr.svg",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "GR",
+    "alpha3Code": "GRC",
+    "capital": "Athens",
+    "flag": "grc.svg",
+    "name": "Greece",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "HR",
+    "alpha3Code": "HRV",
+    "capital": "Zagreb",
+    "flag": "hrv.svg",
+    "name": "Croatia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "HU",
+    "alpha3Code": "HUN",
+    "capital": "Budapest",
+    "flag": "hun.svg",
+    "name": "Hungary",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "IE",
+    "alpha3Code": "IRL",
+    "capital": "Dublin",
+    "flag": "irl.svg",
+    "name": "Ireland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "IS",
+    "alpha3Code": "ISL",
+    "capital": "Reykjavík",
+    "flag": "isl.svg",
+    "name": "Iceland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "IT",
+    "alpha3Code": "ITA",
+    "capital": "Rome",
+    "flag": "ita.svg",
+    "name": "Italy",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "LT",
+    "alpha3Code": "LTU",
+    "capital": "Vilnius",
+    "flag": "ltu.svg",
+    "name": "Lithuania",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "LU",
+    "alpha3Code": "LUX",
+    "capital": "Luxembourg",
+    "flag": "lux.svg",
+    "name": "Luxembourg",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "LV",
+    "alpha3Code": "LVA",
+    "capital": "Riga",
+    "flag": "lva.svg",
+    "name": "Latvia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "MD",
+    "alpha3Code": "MDA",
+    "capital": "Chișinău",
+    "flag": "mda.svg",
+    "name": "Moldova",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "MK",
+    "alpha3Code": "MKD",
+    "capital": "Skopje",
+    "flag": "mkd.svg",
+    "name": "North Macedonia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "ME",
+    "alpha3Code": "MNE",
+    "capital": "Podgorica",
+    "flag": "mne.svg",
+    "name": "Montenegro",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "NL",
+    "alpha3Code": "NLD",
+    "capital": "Amsterdam",
+    "flag": "nld.svg",
+    "name": "Netherlands",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "alpha2Code": "NO",
+    "alpha3Code": "NOR",
+    "capital": "Oslo",
+    "flag": "nor.svg",
+    "name": "Norway",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "PL",
+    "alpha3Code": "POL",
+    "capital": "Warsaw",
+    "flag": "pol.svg",
+    "name": "Poland",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "PT",
+    "alpha3Code": "PRT",
+    "capital": "Lisbon",
+    "flag": "prt.svg",
+    "name": "Portugal",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "RO",
+    "alpha3Code": "ROU",
+    "capital": "Bucharest",
+    "flag": "rou.svg",
+    "name": "Romania",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "RU",
+    "alpha3Code": "RUS",
+    "capital": "Moscow",
+    "flag": "rus.svg",
+    "name": "Russia",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "RS",
+    "alpha3Code": "SRB",
+    "capital": "Belgrade",
+    "flag": "srb.svg",
+    "name": "Serbia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "SK",
+    "alpha3Code": "SVK",
+    "capital": "Bratislava",
+    "flag": "svk.svg",
+    "name": "Slovakia",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "SI",
+    "alpha3Code": "SVN",
+    "capital": "Ljubljana",
+    "flag": "svn.svg",
+    "name": "Slovenia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "alpha2Code": "SE",
+    "alpha3Code": "SWE",
+    "capital": "Stockholm",
+    "flag": "swe.svg",
+    "name": "Sweden",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "alpha2Code": "UA",
+    "alpha3Code": "UKR",
+    "capital": "Kyiv",
+    "flag": "ukr.svg",
+    "name": "Ukraine",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "alpha2Code": "XK",
+    "alpha3Code": "XXK",
+    "capital": "Pristina",
+    "flag": "xxk.svg",
+    "name": "Kosovo",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  }
+]

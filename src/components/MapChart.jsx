@@ -9,7 +9,7 @@ import { useGlobalState } from "../context/GlobalState";
 
 /* import geoUrl from "../data/world/map.json"; */
 
-function MapChart({ jsonData, center, zoom, minZoom, strokeWidth }) {
+function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
   const {
     country,
     setCountriesGuessed,
@@ -28,7 +28,7 @@ function MapChart({ jsonData, center, zoom, minZoom, strokeWidth }) {
       <div className="bg-white w-full">
         <ComposableMap data-tip="">
           <ZoomableGroup center={center} zoom={zoom} minZoom={minZoom} maxZoom={12}>
-            <Geographies geography={jsonData}>
+            <Geographies geography={jsonMap}>
               {({ geographies }) =>
                 geographies.map((geo) => (
                   <Geography

@@ -12,6 +12,12 @@ import asiaMap from "./data/asia/asia-map.json";
 import europeMap from "./data/europe/europe-map.json";
 import africaMap from "./data/africa/africa-map.json";
 
+import worldData from "./data/world/world-data.json";
+import americasData from "./data/americas/americas-data.json";
+import africaData from "./data/africa/africa-data.json";
+import asiaData from "./data/asia/asia-data.json";
+import europeData from "./data/europe/europe-data.json";
+
 function App() {
   return (
     <>
@@ -25,7 +31,8 @@ function App() {
             path="/geographey/world"
             element={
               <MainContainer
-                jsonData={worldMap}
+                jsonMap={worldMap}
+                jsonData={worldData}
                 center={[6, -32]}
                 zoom={0.85}
                 minZoom={0.8}
@@ -37,7 +44,8 @@ function App() {
             path="/geographey/americas"
             element={
               <MainContainer
-                jsonData={americasMap}
+                jsonMap={americasMap}
+                jsonData={americasData}
                 center={[-80, -32]}
                 zoom={0.85}
                 minZoom={0.85}
@@ -49,7 +57,8 @@ function App() {
             path="/geographey/asia"
             element={
               <MainContainer
-                jsonData={asiaMap}
+                jsonMap={asiaMap}
+                jsonData={asiaData}
                 center={[74, 1]}
                 zoom={1.3}
                 minZoom={1.2}
@@ -61,11 +70,12 @@ function App() {
             path="/geographey/europe"
             element={
               <MainContainer
-                jsonData={europeMap}
+                jsonMap={europeMap}
+                jsonData={europeData}
                 center={[15, 39]}
                 zoom={3.3}
                 minZoom={3.2}
-                strokeWidth={0.19}
+                strokeWidth={0.16}
               />
             }
           />
@@ -73,7 +83,8 @@ function App() {
             path="/geographey/africa"
             element={
               <MainContainer
-                jsonData={africaMap}
+                jsonMap={africaMap}
+                jsonData={africaData}
                 center={[16, -22]}
                 zoom={1.4}
                 minZoom={1.3}

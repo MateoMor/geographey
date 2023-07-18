@@ -1,0 +1,434 @@
+[
+  {
+    "alpha2Code": "AF",
+    "alpha3Code": "AFG",
+    "capital": "Kabul",
+    "flag": "afg.svg",
+    "name": "Afghanistan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "AE",
+    "alpha3Code": "ARE",
+    "capital": "Abu Dhabi",
+    "flag": "are.svg",
+    "name": "United Arab Emirates",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "AM",
+    "alpha3Code": "ARM",
+    "capital": "Yerevan",
+    "flag": "arm.svg",
+    "name": "Armenia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "AZ",
+    "alpha3Code": "AZE",
+    "capital": "Baku",
+    "flag": "aze.svg",
+    "name": "Azerbaijan",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "BD",
+    "alpha3Code": "BGD",
+    "capital": "Dhaka",
+    "flag": "bgd.svg",
+    "name": "Bangladesh",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "BH",
+    "alpha3Code": "BHR",
+    "capital": "Manama",
+    "flag": "bhr.svg",
+    "name": "Bahrain",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "BN",
+    "alpha3Code": "BRN",
+    "capital": "Bandar Seri Begawan",
+    "flag": "brn.svg",
+    "name": "Brunei",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "BT",
+    "alpha3Code": "BTN",
+    "capital": "Thimphu",
+    "flag": "btn.svg",
+    "name": "Bhutan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "CN",
+    "alpha3Code": "CHN",
+    "capital": "Beijing",
+    "flag": "chn.svg",
+    "name": "China",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "GE",
+    "alpha3Code": "GEO",
+    "capital": "Tbilisi",
+    "flag": "geo.svg",
+    "name": "Georgia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "ID",
+    "alpha3Code": "IDN",
+    "capital": "Jakarta",
+    "flag": "idn.svg",
+    "name": "Indonesia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "IN",
+    "alpha3Code": "IND",
+    "capital": "New Delhi",
+    "flag": "ind.svg",
+    "name": "India",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "IR",
+    "alpha3Code": "IRN",
+    "capital": "Tehran",
+    "flag": "irn.svg",
+    "name": "Iran",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "IQ",
+    "alpha3Code": "IRQ",
+    "capital": "Baghdad",
+    "flag": "irq.svg",
+    "name": "Iraq",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "IL",
+    "alpha3Code": "ISR",
+    "capital": "Jerusalem",
+    "flag": "isr.svg",
+    "name": "Israel",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "JO",
+    "alpha3Code": "JOR",
+    "capital": "Amman",
+    "flag": "jor.svg",
+    "name": "Jordan",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "JP",
+    "alpha3Code": "JPN",
+    "capital": "Tokyo",
+    "flag": "jpn.svg",
+    "name": "Japan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "KZ",
+    "alpha3Code": "KAZ",
+    "capital": "Nur-Sultan",
+    "flag": "kaz.svg",
+    "name": "Kazakhstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "KG",
+    "alpha3Code": "KGZ",
+    "capital": "Bishkek",
+    "flag": "kgz.svg",
+    "name": "Kyrgyzstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "KH",
+    "alpha3Code": "KHM",
+    "capital": "Phnom Penh",
+    "flag": "khm.svg",
+    "name": "Cambodia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "KR",
+    "alpha3Code": "KOR",
+    "capital": "Seoul",
+    "flag": "kor.svg",
+    "name": "South Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "KW",
+    "alpha3Code": "KWT",
+    "capital": "Kuwait City",
+    "flag": "kwt.svg",
+    "name": "Kuwait",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "LA",
+    "alpha3Code": "LAO",
+    "capital": "Vientiane",
+    "flag": "lao.svg",
+    "name": "Laos",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "LB",
+    "alpha3Code": "LBN",
+    "capital": "Beirut",
+    "flag": "lbn.svg",
+    "name": "Lebanon",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "LK",
+    "alpha3Code": "LKA",
+    "capital": "Sri Jayawardenepura Kotte",
+    "flag": "lka.svg",
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "MM",
+    "alpha3Code": "MMR",
+    "capital": "Naypyidaw",
+    "flag": "mmr.svg",
+    "name": "Myanmar",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "MN",
+    "alpha3Code": "MNG",
+    "capital": "Ulan Bator",
+    "flag": "mng.svg",
+    "name": "Mongolia",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "MY",
+    "alpha3Code": "MYS",
+    "capital": "Kuala Lumpur",
+    "flag": "mys.svg",
+    "name": "Malaysia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "NP",
+    "alpha3Code": "NPL",
+    "capital": "Kathmandu",
+    "flag": "npl.svg",
+    "name": "Nepal",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "OM",
+    "alpha3Code": "OMN",
+    "capital": "Muscat",
+    "flag": "omn.svg",
+    "name": "Oman",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "PK",
+    "alpha3Code": "PAK",
+    "capital": "Islamabad",
+    "flag": "pak.svg",
+    "name": "Pakistan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "alpha2Code": "PH",
+    "alpha3Code": "PHL",
+    "capital": "Manila",
+    "flag": "phl.svg",
+    "name": "Philippines",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "RU",
+    "alpha3Code": "RUS",
+    "capital": "Moscow",
+    "flag": "rus.svg",
+    "name": "Russia",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "KP",
+    "alpha3Code": "PRK",
+    "capital": "Pyongyang",
+    "flag": "prk.svg",
+    "name": "North Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "PS",
+    "alpha3Code": "PSE",
+    "capital": "Ramallah",
+    "flag": "pse.svg",
+    "name": "Palestine",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "QA",
+    "alpha3Code": "QAT",
+    "capital": "Doha",
+    "flag": "qat.svg",
+    "name": "Qatar",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "SA",
+    "alpha3Code": "SAU",
+    "capital": "Riyadh",
+    "flag": "sau.svg",
+    "name": "Saudi Arabia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "SG",
+    "alpha3Code": "SGP",
+    "capital": "Singapore",
+    "flag": "sgp.svg",
+    "name": "Singapore",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "SY",
+    "alpha3Code": "SYR",
+    "capital": "Damascus",
+    "flag": "syr.svg",
+    "name": "Syria",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "TH",
+    "alpha3Code": "THA",
+    "capital": "Bangkok",
+    "flag": "tha.svg",
+    "name": "Thailand",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "TJ",
+    "alpha3Code": "TJK",
+    "capital": "Dushanbe",
+    "flag": "tjk.svg",
+    "name": "Tajikistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "TM",
+    "alpha3Code": "TKM",
+    "capital": "Ashgabat",
+    "flag": "tkm.svg",
+    "name": "Turkmenistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "TL",
+    "alpha3Code": "TLS",
+    "capital": "Dili",
+    "flag": "tls.svg",
+    "name": "Timor-Leste",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "TR",
+    "alpha3Code": "TUR",
+    "capital": "Ankara",
+    "flag": "tur.svg",
+    "name": "Turkey",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "alpha2Code": "TW",
+    "alpha3Code": "TWN",
+    "capital": "Taipei",
+    "flag": "twn.svg",
+    "name": "Taiwan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "alpha2Code": "UZ",
+    "alpha3Code": "UZB",
+    "capital": "Tashkent",
+    "flag": "uzb.svg",
+    "name": "Uzbekistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "alpha2Code": "VN",
+    "alpha3Code": "VNM",
+    "capital": "Hanoi",
+    "flag": "vnm.svg",
+    "name": "Vietnam",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "alpha2Code": "YE",
+    "alpha3Code": "YEM",
+    "capital": "Sana'a",
+    "flag": "yem.svg",
+    "name": "Yemen",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  }
+]

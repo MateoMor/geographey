@@ -1,0 +1,281 @@
+[
+  {
+    "alpha2Code": "AR",
+    "alpha3Code": "ARG",
+    "capital": "Buenos Aires",
+    "flag": "arg.svg",
+    "name": "Argentina",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "BS",
+    "alpha3Code": "BHS",
+    "capital": "Nassau",
+    "flag": "bhs.svg",
+    "name": "Bahamas",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "BZ",
+    "alpha3Code": "BLZ",
+    "capital": "Belmopan",
+    "flag": "blz.svg",
+    "name": "Belize",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "BO",
+    "alpha3Code": "BOL",
+    "capital": "Sucre",
+    "flag": "bol.svg",
+    "name": "Bolivia",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "BR",
+    "alpha3Code": "BRA",
+    "capital": "Brasília",
+    "flag": "bra.svg",
+    "name": "Brazil",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "CA",
+    "alpha3Code": "CAN",
+    "capital": "Ottawa",
+    "flag": "can.svg",
+    "name": "Canada",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "alpha2Code": "CL",
+    "alpha3Code": "CHL",
+    "capital": "Santiago",
+    "flag": "chl.svg",
+    "name": "Chile",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "CO",
+    "alpha3Code": "COL",
+    "capital": "Bogotá",
+    "flag": "col.svg",
+    "name": "Colombia",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "CR",
+    "alpha3Code": "CRI",
+    "capital": "San José",
+    "flag": "cri.svg",
+    "name": "Costa Rica",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "CU",
+    "alpha3Code": "CUB",
+    "capital": "Havana",
+    "flag": "cub.svg",
+    "name": "Cuba",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "DO",
+    "alpha3Code": "DOM",
+    "capital": "Santo Domingo",
+    "flag": "dom.svg",
+    "name": "Dominican Republic",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "EC",
+    "alpha3Code": "ECU",
+    "capital": "Quito",
+    "flag": "ecu.svg",
+    "name": "Ecuador",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "GL",
+    "alpha3Code": "GRL",
+    "capital": "Nuuk",
+    "flag": "grl.svg",
+    "name": "Greenland",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "alpha2Code": "GT",
+    "alpha3Code": "GTM",
+    "capital": "Guatemala City",
+    "flag": "gtm.svg",
+    "name": "Guatemala",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "GF",
+    "alpha3Code": "GUF",
+    "capital": "Cayenne",
+    "flag": "guf.svg",
+    "name": "French Guiana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "GY",
+    "alpha3Code": "GUY",
+    "capital": "Georgetown",
+    "flag": "guy.svg",
+    "name": "Guyana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "HN",
+    "alpha3Code": "HND",
+    "capital": "Tegucigalpa",
+    "flag": "hnd.svg",
+    "name": "Honduras",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "HT",
+    "alpha3Code": "HTI",
+    "capital": "Port-au-Prince",
+    "flag": "hti.svg",
+    "name": "Haiti",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "JM",
+    "alpha3Code": "JAM",
+    "capital": "Kingston",
+    "flag": "jam.svg",
+    "name": "Jamaica",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "MX",
+    "alpha3Code": "MEX",
+    "capital": "Mexico City",
+    "flag": "mex.svg",
+    "name": "Mexico",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "NI",
+    "alpha3Code": "NIC",
+    "capital": "Managua",
+    "flag": "nic.svg",
+    "name": "Nicaragua",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "PA",
+    "alpha3Code": "PAN",
+    "capital": "Panama City",
+    "flag": "pan.svg",
+    "name": "Panama",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "PE",
+    "alpha3Code": "PER",
+    "capital": "Lima",
+    "flag": "per.svg",
+    "name": "Peru",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "PR",
+    "alpha3Code": "PRI",
+    "capital": "San Juan",
+    "flag": "pri.svg",
+    "name": "Puerto Rico",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "PY",
+    "alpha3Code": "PRY",
+    "capital": "Asunción",
+    "flag": "pry.svg",
+    "name": "Paraguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "SV",
+    "alpha3Code": "SLV",
+    "capital": "San Salvador",
+    "flag": "slv.svg",
+    "name": "El Salvador",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "alpha2Code": "SR",
+    "alpha3Code": "SUR",
+    "capital": "Paramaribo",
+    "flag": "sur.svg",
+    "name": "Suriname",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "TT",
+    "alpha3Code": "TTO",
+    "capital": "Port of Spain",
+    "flag": "tto.svg",
+    "name": "Trinidad and Tobago",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "alpha2Code": "UY",
+    "alpha3Code": "URY",
+    "capital": "Montevideo",
+    "flag": "ury.svg",
+    "name": "Uruguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "alpha2Code": "US",
+    "alpha3Code": "USA",
+    "capital": "Washington, D.C.",
+    "flag": "usa.svg",
+    "name": "United States",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "alpha2Code": "VE",
+    "alpha3Code": "VEN",
+    "capital": "Caracas",
+    "flag": "ven.svg",
+    "name": "Venezuela",
+    "region": "Americas",
+    "subregion": "South America"
+  }
+]

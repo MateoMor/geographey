@@ -1,7 +1,7 @@
 import { useStopwatch } from "react-timer-hook";
 
 import { createContext, useContext, useEffect, useState } from "react";
-import countries from "../data/countries.json";
+import worldData from "../data/world/world-data.json";
 
 export const Context = createContext();
 
@@ -26,6 +26,8 @@ export const GlobalProvider = ({ children }) => {
   const [attemp, setAttemp] = useState(true);
 
   const [currentColor, setCurrentColor] = useState("#F53");
+
+  const [countries, setCountries] = useState([1]);
 
   const colors = {
     bronce: "#D47835",
@@ -101,6 +103,7 @@ export const GlobalProvider = ({ children }) => {
         setCurrentColor,
         reset,
         setGameFinished,
+        setCountries,
       }}
     >
       {children}

@@ -1,0 +1,452 @@
+[
+  {
+    "alpha2Code": "AO",
+    "alpha3Code": "AGO",
+    "capital": "Luanda",
+    "flag": "ago.svg",
+    "name": "Angola",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "BI",
+    "alpha3Code": "BDI",
+    "capital": "Gitega",
+    "flag": "bdi.svg",
+    "name": "Burundi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "BJ",
+    "alpha3Code": "BEN",
+    "capital": "Porto-Novo",
+    "flag": "ben.svg",
+    "name": "Benin",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "BF",
+    "alpha3Code": "BFA",
+    "capital": "Ouagadougou",
+    "flag": "bfa.svg",
+    "name": "Burkina Faso",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "BW",
+    "alpha3Code": "BWA",
+    "capital": "Gaborone",
+    "flag": "bwa.svg",
+    "name": "Botswana",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "alpha2Code": "CF",
+    "alpha3Code": "CAF",
+    "capital": "Bangui",
+    "flag": "caf.svg",
+    "name": "Central African Republic",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "CI",
+    "alpha3Code": "CIV",
+    "capital": "Yamoussoukro",
+    "flag": "civ.svg",
+    "name": "Ivory Coast",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "CM",
+    "alpha3Code": "CMR",
+    "capital": "Yaoundé",
+    "flag": "cmr.svg",
+    "name": "Cameroon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "CD",
+    "alpha3Code": "COD",
+    "capital": "Kinshasa",
+    "flag": "cod.svg",
+    "name": "Democratic Republic of the Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "CG",
+    "alpha3Code": "COG",
+    "capital": "Brazzaville",
+    "flag": "cog.svg",
+    "name": "Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "DJ",
+    "alpha3Code": "DJI",
+    "capital": "Djibouti",
+    "flag": "dji.svg",
+    "name": "Djibouti",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "DZ",
+    "alpha3Code": "DZA",
+    "capital": "Algiers",
+    "flag": "dza.svg",
+    "name": "Algeria",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "EG",
+    "alpha3Code": "EGY",
+    "capital": "Cairo",
+    "flag": "egy.svg",
+    "name": "Egypt",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "ER",
+    "alpha3Code": "ERI",
+    "capital": "Asmara",
+    "flag": "eri.svg",
+    "name": "Eritrea",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "EH",
+    "alpha3Code": "ESH",
+    "capital": "El Aaiún",
+    "flag": "esh.svg",
+    "name": "Western Sahara",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "ET",
+    "alpha3Code": "ETH",
+    "capital": "Addis Ababa",
+    "flag": "eth.svg",
+    "name": "Ethiopia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "GA",
+    "alpha3Code": "GAB",
+    "capital": "Libreville",
+    "flag": "gab.svg",
+    "name": "Gabon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "GH",
+    "alpha3Code": "GHA",
+    "capital": "Accra",
+    "flag": "gha.svg",
+    "name": "Ghana",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "GN",
+    "alpha3Code": "GIN",
+    "capital": "Conakry",
+    "flag": "gin.svg",
+    "name": "Guinea",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "GM",
+    "alpha3Code": "GMB",
+    "capital": "Banjul",
+    "flag": "gmb.svg",
+    "name": "Gambia",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "GW",
+    "alpha3Code": "GNB",
+    "capital": "Bissau",
+    "flag": "gnb.svg",
+    "name": "Guinea-Bissau",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "GQ",
+    "alpha3Code": "GNQ",
+    "capital": "Malabo",
+    "flag": "gnq.svg",
+    "name": "Equatorial Guinea",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "KE",
+    "alpha3Code": "KEN",
+    "capital": "Nairobi",
+    "flag": "ken.svg",
+    "name": "Kenya",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "LR",
+    "alpha3Code": "LBR",
+    "capital": "Monrovia",
+    "flag": "lbr.svg",
+    "name": "Liberia",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "LY",
+    "alpha3Code": "LBY",
+    "capital": "Tripoli",
+    "flag": "lby.svg",
+    "name": "Libya",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "LS",
+    "alpha3Code": "LSO",
+    "capital": "Maseru",
+    "flag": "lso.svg",
+    "name": "Lesotho",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "alpha2Code": "MA",
+    "alpha3Code": "MAR",
+    "capital": "Rabat",
+    "flag": "mar.svg",
+    "name": "Morocco",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "MG",
+    "alpha3Code": "MDG",
+    "capital": "Antananarivo",
+    "flag": "mdg.svg",
+    "name": "Madagascar",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "ML",
+    "alpha3Code": "MLI",
+    "capital": "Bamako",
+    "flag": "mli.svg",
+    "name": "Mali",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "MZ",
+    "alpha3Code": "MOZ",
+    "capital": "Maputo",
+    "flag": "moz.svg",
+    "name": "Mozambique",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "MR",
+    "alpha3Code": "MRT",
+    "capital": "Nouakchott",
+    "flag": "mrt.svg",
+    "name": "Mauritania",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "MW",
+    "alpha3Code": "MWI",
+    "capital": "Lilongwe",
+    "flag": "mwi.svg",
+    "name": "Malawi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "NA",
+    "alpha3Code": "NAM",
+    "capital": "Windhoek",
+    "flag": "nam.svg",
+    "name": "Namibia",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "alpha2Code": "NE",
+    "alpha3Code": "NER",
+    "capital": "Niamey",
+    "flag": "ner.svg",
+    "name": "Niger",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "NG",
+    "alpha3Code": "NGA",
+    "capital": "Abuja",
+    "flag": "nga.svg",
+    "name": "Nigeria",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "RW",
+    "alpha3Code": "RWA",
+    "capital": "Kigali",
+    "flag": "rwa.svg",
+    "name": "Rwanda",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "SD",
+    "alpha3Code": "SDN",
+    "capital": "Khartoum",
+    "flag": "sdn.svg",
+    "name": "Sudan",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "SN",
+    "alpha3Code": "SEN",
+    "capital": "Dakar",
+    "flag": "sen.svg",
+    "name": "Senegal",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "SL",
+    "alpha3Code": "SLE",
+    "capital": "Freetown",
+    "flag": "sle.svg",
+    "name": "Sierra Leone",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "SO",
+    "alpha3Code": "SOM",
+    "capital": "Mogadishu",
+    "flag": "som.svg",
+    "name": "Somalia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "SS",
+    "alpha3Code": "SSD",
+    "capital": "Juba",
+    "flag": "ssd.svg",
+    "name": "South Sudan",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "SZ",
+    "alpha3Code": "SWZ",
+    "capital": "Mbabane",
+    "flag": "swz.svg",
+    "name": "Eswatini",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "alpha2Code": "TD",
+    "alpha3Code": "TCD",
+    "capital": "N'Djamena",
+    "flag": "tcd.svg",
+    "name": "Chad",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "alpha2Code": "TG",
+    "alpha3Code": "TGO",
+    "capital": "Lomé",
+    "flag": "tgo.svg",
+    "name": "Togo",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "alpha2Code": "TN",
+    "alpha3Code": "TUN",
+    "capital": "Tunis",
+    "flag": "tun.svg",
+    "name": "Tunisia",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "alpha2Code": "TZ",
+    "alpha3Code": "TZA",
+    "capital": "Dodoma",
+    "flag": "tza.svg",
+    "name": "Tanzania",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "UG",
+    "alpha3Code": "UGA",
+    "capital": "Kampala",
+    "flag": "uga.svg",
+    "name": "Uganda",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "ZA",
+    "alpha3Code": "ZAF",
+    "capital": "Pretoria",
+    "flag": "zaf.svg",
+    "name": "South Africa",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "alpha2Code": "ZM",
+    "alpha3Code": "ZMB",
+    "capital": "Lusaka",
+    "flag": "zmb.svg",
+    "name": "Zambia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "alpha2Code": "ZW",
+    "alpha3Code": "ZWE",
+    "capital": "Harare",
+    "flag": "zwe.svg",
+    "name": "Zimbabwe",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  }
+]
