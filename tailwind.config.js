@@ -25,6 +25,20 @@ export default {
       fontFamily: {
         quantico: "'Quantico', sans-serif",
       },
+      /* animation: {
+        wave: "wave 15s linear infinite",
+        reverseWave: "reverseWave 15s linear infinite",
+      },
+      keyframes: {
+        wave: {
+          "0%": { backgroundPosition: "100% 0" },
+          "100%": { backgroundPosition: "-100% 0" },
+        },
+        reverseWave: {
+          "0%": { backgroundPosition: "-100% 0" },
+          "100%": { backgroundPosition: "100% 0" },
+        }
+      }, */
     },
   },
   plugins: [],

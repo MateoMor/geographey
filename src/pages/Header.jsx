@@ -1,9 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
+import Footer from '../containers/Footer'
 
 function Header() {
   return (
     <div >
-      <header className="bg-mainColor w-[100%] flex justify-between  pt-[8pt] pb-0 px-[50px] overflow-hidden">
+      <header className="bg-mainColor w-[100%] flex justify-between pt-[8pt] pb-0 px-[20px] overflow-hidden">
         <Link to="/geographey" className="relative text-white text-[2em] font-bold">Geographey</Link>
         <nav className="flex gap-3">
           <Link to="/geographey/world" className="nav-link">World</Link>
@@ -14,6 +15,7 @@ function Header() {
         </nav>
       </header>
       <Outlet/>
+      <Footer/>
     </div>
   );
 }

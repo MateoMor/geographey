@@ -39,11 +39,11 @@
   }
 
   .map-card {
-    @apply map-card-share-properties aspect-[25/27] w-[25%] min-w-[200pt]  overflow-visible cursor-pointer relative hover:-translate-x-4 
+    @apply map-card-share-properties aspect-[25/27] w-[25%] min-w-[200px]  overflow-visible cursor-pointer relative hover:-translate-y-[3%]
   }
 
   .map-card::before {
-    @apply map-card-share-properties content-[""] absolute block w-[100%] h-[100%] bg-mainColor translate-x-2 hover:translate-x-14
+    @apply map-card-share-properties content-[""] absolute block w-[100%] h-[100%] bg-mainColor translate-y-[3%] hover:translate-y-[7%]
   }
 
   .window-background {

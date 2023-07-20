@@ -23,7 +23,7 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="bg-white w-full">
+      <div className="bg-white w-full h-full">
         <ComposableMap data-tip="">
           <ZoomableGroup
             center={center}
