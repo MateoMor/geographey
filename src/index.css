@@ -73,4 +73,8 @@
   .responsive-stopwatch {
     @apply absolute -bottom-[39%] left-[140px] text-3xl
   }
+
+  .map-chart-element {
+    @apply active:border-none active:outline-none focus:border-none focus:outline-none
+  }
 }

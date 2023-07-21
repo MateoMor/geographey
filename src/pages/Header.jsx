@@ -8,7 +8,7 @@ function Header() {
   const { open, setOpen } = useGlobalState();
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <header className="bg-mainColor w-[100%] flex justify-between pt-[8pt] pb-0 px-[20px] overflow-hidden max-[800px]:overflow-visible relative">
         <Link
           to="/geographey"
@@ -30,7 +30,7 @@ function Header() {
           )}
         </div>
         <nav
-          className={`flex gap-3 max-[800px]:responsive-menu ease-in-out duration-100 ${open ? "" : "translate-x-[100%]"}`}
+          className={`flex gap-3 max-[800px]:responsive-menu ease-in-out duration-100 max-[800px]:${open ? "" : "translate-x-[100%]"}`}
         >
           <HeaderLink to="/geographey/world">World</HeaderLink>
           <HeaderLink to="/geographey/americas">Americas</HeaderLink>
