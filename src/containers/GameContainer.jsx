@@ -6,10 +6,10 @@ import StopWatch from "../components/StopWatch";
 
 function GameContainer() {
   return (
-    <div className="absolute w-[100%] h-[15%] pointer-events-none pt-[1.8%] px-3 flex justify-between ">
+    <div className="absolute w-[100%] h-[95px] pointer-events-none pt-[24px]  px-3 flex justify-between">
       <div
         id="gameContainer"
-        className="bg-neutralColor relative w-[26%] min-w-[280px] h-[100%] flex items-center  rounded-l-2xl container-border pointer-events-auto"
+        className="bg-neutralColor relative w-[26%] min-w-[280px] h-[100%] max-[490px]:h-[85%] max-[490px]:min-w-[260px] text-sm flex items-center  rounded-l-2xl container-border pointer-events-auto"
       >
         <Info />
         <CountryName />

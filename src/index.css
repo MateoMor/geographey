@@ -20,18 +20,14 @@
   }
 
   .active {
-    @apply bg-pageColor text-black rounded-t-xl;
+    @apply bg-pageColor max-[800px]:bg-mainColor text-black min-[800px]:rounded-t-xl max-[800px]:rounded-md
   }
 
   .active::before {
-    @apply content-[""] absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-pageColor pointer-events-none;
+    @apply content-[""] max-[800px]:hidden absolute -left-5 bottom-0 w-5 h-5 rounded-br-[20px] shadow-[5px_5px_0_5px] shadow-pageColor pointer-events-none;
   }
   .active::after {
-    @apply content-[""] absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-pageColor pointer-events-none;
-  }
-
-  .nav-link {
-    @apply relative pt-3 px-5 text-white font-medium hover:active;
+    @apply content-[""] max-[800px]:hidden absolute -right-5 bottom-0 w-5 h-5 rounded-bl-[20px] shadow-[-5px_5px_0_5px] shadow-pageColor pointer-events-none;
   }
 
   .map-card-share-properties {
@@ -39,7 +35,7 @@
   }
 
   .map-card {
-    @apply map-card-share-properties aspect-[25/27] w-[25%] min-w-[200px]  overflow-visible cursor-pointer relative hover:-translate-y-[3%]
+    @apply map-card-share-properties aspect-[25/27] w-[25%] min-w-[210px] max-[513px]:min-w-[75%] overflow-visible cursor-pointer relative hover:-translate-y-[3%]
   }
 
   .map-card::before {
@@ -68,5 +64,13 @@
 
   .stadistics-text {
     @apply font-bold text-2xl text-secondaryColor
+  }
+
+  .responsive-menu {
+    @apply flex-col gap-4 absolute bottom-0 translate-y-[100%] right-0 bg-[#fff]  z-50 w-[50%] py-6 rounded-b-lg items-center container-border 
+  }
+
+  .responsive-stopwatch {
+    @apply absolute -bottom-[39%] left-[140px] text-3xl
   }
 }

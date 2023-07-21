@@ -26,6 +26,8 @@ export const GlobalProvider = ({ children }) => {
 
   const [countries, setCountries] = useState([1]);
 
+  const [open, setOpen] = useState(false);
+
   const colors = {
     bronce: "#D47835",
     silver: "#949091",
@@ -99,6 +101,8 @@ export const GlobalProvider = ({ children }) => {
         reset,
         setGameFinished,
         setCountries,
+        open,
+        setOpen,
       }}
     >
       {children}

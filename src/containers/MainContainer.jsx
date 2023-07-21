@@ -11,7 +11,11 @@ import { disablePageScroll } from "scroll-lock";
 function MainContainer({jsonMap, jsonData, center, zoom, minZoom, strokeWidth}) {
   const { gameFinished, resetGame, setCountries } = useGlobalState();
 
-  setCountries(jsonData)
+  useEffect(() => {
+    setCountries(jsonData)
+    
+  }, [])
+  
 
   useEffect(() => {
     disablePageScroll()
