@@ -30,7 +30,8 @@ function Header() {
           )}
         </div>
         <nav
-          className={`flex gap-3 max-[800px]:responsive-menu ease-in-out duration-100 max-[800px]:${open ? "" : "translate-x-[100%]"}`}
+          className={`flex gap-3 max-[800px]:responsive-menu duration-100 ${open ? "" : "max-[800px]:translate-x-[100%]"} `}
+          
         >
           <HeaderLink to="/geographey/world">World</HeaderLink>
           <HeaderLink to="/geographey/americas">Americas</HeaderLink>
