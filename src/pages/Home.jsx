@@ -8,7 +8,7 @@ function Home() {
 
   useEffect(() => {
     enablePageScroll();
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0 });
     setGameFinished(false);
     reset();
     pause();

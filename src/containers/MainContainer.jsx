@@ -14,7 +14,7 @@ function MainContainer({jsonMap, jsonData, center, zoom, minZoom, strokeWidth}) 
   useEffect(() => {
     setCountries(jsonData)
     disablePageScroll()
-    window.scrollTo({top:0})
+    window.scrollTo({ top: 0 });
     resetGame();
     setOpen(false)
   }, [])
