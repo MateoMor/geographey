@@ -17,10 +17,7 @@ function Header() {
           Geographey
         </Link>
         <div
-          onClick={() => {
-            setOpen(!open);
-            console.log(open);
-          }}
+          onClick={() => setOpen(!open)}
           className="min-[800px]:hidden absolute top-[50%] -translate-y-[50%] right-7 "
         >
           {open ? (
@@ -30,8 +27,9 @@ function Header() {
           )}
         </div>
         <nav
-          className={`flex gap-3 max-[800px]:responsive-menu duration-100 ${open ? "" : "max-[800px]:translate-x-[100%]"} `}
-          
+          className={`flex gap-3 max-[800px]:responsive-menu duration-100 ${
+            open ? "" : "max-[800px]:translate-x-[100%]"
+          } `}
         >
           <HeaderLink to="/geographey/world">World</HeaderLink>
           <HeaderLink to="/geographey/americas">Americas</HeaderLink>

@@ -68,6 +68,7 @@ export const GlobalProvider = ({ children }) => {
   const resetGame = () => {
     document.getElementById("menu").style.display = "none";
     reset();
+    setScore(0);
     setCountriesPlayed([]);
     setCountriesGuessed([]);
     setCountriesSkipped([]);

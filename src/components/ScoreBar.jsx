@@ -7,10 +7,10 @@ function ScoreBar() {
 
   return (
     <div className=" col-span-full w-[80%] h-4 rounded-full container-border tooltip relative ">
-      <div className="relative overflow-hidden w-[100%] h-[100%] rounded-full">
+      <div className="relative  w-[100%] h-[100%] rounded-full">
         <div
           id="scoreBar"
-          className="absolute w-[100%] -left-[100%] h-full bg-violet-700 rounded-l-full duration-700 "
+          className="absolute w-[100%] -left-[100%] h-full bg-violet-700 rounded-l-full duration-700"
         />
       </div>
       <div className="scoreBarTooltip left-[20%]">
@@ -31,7 +31,10 @@ function ScoreBar() {
       <div className="scoreBarTooltip right-0">
         <div className="scorebarTooltpiCloud">
           {score >= 100 ? (
-            <img src="/geographey/assets/diamond-trophy.svg" alt=""/>
+            <img
+              src="/geographey/assets/diamond-trophy.svg"
+              alt="Diamond trophy"
+            />
           ) : (
             <GiDiamondTrophy size="100%" />
           )}

@@ -34,6 +34,8 @@ function App() {
                 jsonMap={worldMap}
                 jsonData={worldData}
                 center={[6, -32]}
+                tabletCenter={[6, -32]}
+                mobileCenter={[6, -32]}
                 zoom={0.85}
                 minZoom={0.8}
                 strokeWidth={0.4}

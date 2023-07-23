@@ -35,7 +35,7 @@
   }
 
   .map-card {
-    @apply map-card-share-properties aspect-[25/27] w-[25%] min-w-[210px] max-[513px]:min-w-[75%] overflow-visible cursor-pointer relative hover:-translate-y-[3%]
+    @apply map-card-share-properties aspect-[25/27] w-[25%] min-w-[210px] max-[513px]:min-w-[80%] overflow-visible cursor-pointer relative hover:-translate-y-[3%]
   }
 
   .map-card::before {

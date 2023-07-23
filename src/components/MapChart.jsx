@@ -22,8 +22,9 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
   } = useGlobalState();
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="bg-white w-full max-[833px]:w-[150%]">{/*  max-[569px]:w-[200%] max-[417px]:w-[300%] */}
+    <div className="flex flex-col justify-center items-center w-full">
+      <div className="bg-white w-full max-[833px]:w-[150vw] max-[569px]:w-[200vw] max-[417px]:w-[290vw]">
+        {/*  */}
         <ComposableMap data-tip="">
           <ZoomableGroup
             center={center}

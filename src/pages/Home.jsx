@@ -7,11 +7,11 @@ function Home() {
   const { reset, pause, setGameFinished } = useGlobalState();
 
   useEffect(() => {
-    window.scrollTo({ top: 0 });
     enablePageScroll();
-    setGameFinished(false)
-    reset()
-    pause()
+    window.scrollTo(0, 0);
+    setGameFinished(false);
+    reset();
+    pause();
   }, []);
 
   return (
