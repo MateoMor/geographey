@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import MapChart from "../components/MapChart";
 import { useGlobalState } from "../context/GlobalState";
 import GameContainer from "./GameContainer";
@@ -9,7 +9,7 @@ import { disablePageScroll } from "scroll-lock";
 
 
 function MainContainer({jsonMap, jsonData, center, zoom, minZoom, strokeWidth}) {
-  const { gameFinished, resetGame, setCountries, setOpen } = useGlobalState();
+  const { gameFinished, resetGame, setCountries, setOpen, showMenu } = useGlobalState();
 
   useEffect(() => {
     setCountries(jsonData)
@@ -23,7 +23,7 @@ function MainContainer({jsonMap, jsonData, center, zoom, minZoom, strokeWidth}) 
     <div>
       <GameContainer />
       <MapChart jsonMap={jsonMap} center={center} zoom={zoom} minZoom={minZoom} strokeWidth={strokeWidth}/>
-      <Menu />
+      {showMenu && <Menu />}
       {gameFinished && <ResultWindow />}
     </div>
   );

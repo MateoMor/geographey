@@ -3,14 +3,14 @@ import WindowHeader from "../components/WindowHeader";
 import { useGlobalState } from "../context/GlobalState";
 
 function Menu() {
-  const { start, resetGame, gameFinished } = useGlobalState();
+  const { start, resetGame, gameFinished, setShowMenu } = useGlobalState();
 
   return (
     <div
       id="menu"
       onClick={(e) => {
         if (e.target.id == "menu") {
-          document.getElementById("menu").style.display = "none";
+          setShowMenu(false);
           if (!gameFinished) {
             start();
           }

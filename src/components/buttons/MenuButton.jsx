@@ -2,13 +2,13 @@ import { HiMenu } from "react-icons/hi";
 import { useGlobalState } from "../../context/GlobalState";
 
 function MenuButton() {
-  const { pause } = useGlobalState();
+  const { pause, setShowMenu } = useGlobalState();
 
   return (
     <button
       className="button bg-secondaryColor"
       onClick={() => {
-        document.getElementById("menu").style.display = "flex";
+        setShowMenu(true)
         pause();
       }}
     >

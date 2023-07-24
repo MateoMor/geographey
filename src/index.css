@@ -43,7 +43,7 @@
   }
 
   .window-background {
-    @apply absolute top-0 h-full w-full hidden justify-center items-center bg-[#00000043]
+    @apply absolute top-0 h-full w-full flex justify-center items-center bg-[#00000043]
   }
 
   .window-style {

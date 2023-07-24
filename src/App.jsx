@@ -17,8 +17,30 @@ import americasData from "./data/americas/americas-data.json";
 import africaData from "./data/africa/africa-data.json";
 import asiaData from "./data/asia/asia-data.json";
 import europeData from "./data/europe/europe-data.json";
+import { useEffect, useState } from "react";
 
 function App() {
+
+  const [isRotated, setIsRotated] = useState(false);
+
+  useEffect(() => {
+    
+    
+    // Función que maneja el evento orientationchange
+    const handleOrientationChange = () => {
+      
+      setIsRotated(!isRotated);
+    };
+
+    // Agregar el evento al cargar el componente
+    window.addEventListener('orientationchange', handleOrientationChange);
+
+    // Eliminar el evento al desmontar el componente para evitar memory leaks
+    return () => {
+      window.removeEventListener('orientationchange', handleOrientationChange);
+    };
+  }, [isRotated]);
+
   return (
     <>
       <GlobalProvider>

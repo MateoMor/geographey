@@ -28,6 +28,8 @@ export const GlobalProvider = ({ children }) => {
 
   const [open, setOpen] = useState(false);
 
+  const [showMenu, setShowMenu] = useState(false);
+
   const colors = {
     bronce: "#D47835",
     silver: "#949091",
@@ -66,7 +68,7 @@ export const GlobalProvider = ({ children }) => {
   });
 
   const resetGame = () => {
-    document.getElementById("menu").style.display = "none";
+    setShowMenu(false)
     reset();
     setScore(0);
     setCountriesPlayed([]);
@@ -104,6 +106,8 @@ export const GlobalProvider = ({ children }) => {
         setCountries,
         open,
         setOpen,
+        showMenu,
+        setShowMenu,
       }}
     >
       {children}

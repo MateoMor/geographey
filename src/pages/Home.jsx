@@ -4,11 +4,12 @@ import { useEffect } from "react";
 import { useGlobalState } from "../context/GlobalState";
 
 function Home() {
-  const { reset, pause, setGameFinished } = useGlobalState();
+  const { reset, pause, setGameFinished, setShowMenu } = useGlobalState();
 
   useEffect(() => {
     enablePageScroll();
     window.scrollTo({ top: 0 });
+    setShowMenu(false);
     setGameFinished(false);
     reset();
     pause();
