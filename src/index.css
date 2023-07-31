@@ -78,3 +78,42 @@
     @apply active:border-none active:outline-none focus:border-none focus:outline-none
   }
 }
+
+@media (max-height: 468px) {
+  .responsive-result-window {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    padding: 12px;
+    height: 65%;
+    width: 520px;
+  }
+
+  .responsive-stadistics-section {
+    grid-column: span 2 / span 2;
+    margin-right: 12px;
+  }
+
+  .responsive-button-section {
+    grid-column: span 1 / span 1;
+  }
+
+  .responsive-score-bar {
+    margin-top: 15%;
+  }
+
+  .responsive-stadistics-container {
+    line-height: 14px;
+  }
+
+  .responsive-stadistics-title {
+    font-size: 16px;
+  }
+
+  .responsive-stadistics-text {
+    font-size: larger;
+  }
+
+  .custom-window-header {
+    left: 17.6%;
+  }
+}

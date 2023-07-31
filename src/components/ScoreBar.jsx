@@ -6,7 +6,7 @@ function ScoreBar() {
   const { score, colors } = useGlobalState();
 
   return (
-    <div className=" col-span-full w-[80%] h-4 rounded-full container-border tooltip relative ">
+    <div className=" col-span-full w-[80%] h-4 rounded-full container-border tooltip relative responsive-score-bar">
       <div className="relative overflow-hidden w-[100%] h-[100%] rounded-full">
         <div
           id="scoreBar"
@@ -28,7 +28,7 @@ function ScoreBar() {
           <GiTrophyCup size="100%" fill={score >= 80 ? colors.gold : ""} />
         </div>
       </div>
-      <div className="scoreBarTooltip right-0">
+      <div className="scoreBarTooltip -right-[0.4px] rounded-r-full">
         <div className="scorebarTooltpiCloud">
           {score >= 100 ? (
             <img

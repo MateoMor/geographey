@@ -58,6 +58,12 @@ export const GlobalProvider = ({ children }) => {
     }
   }, [score]);
 
+  useEffect(() => {
+    if (gameFinished) {
+      document.getElementById("stopWatch").style.left = "180px";
+    }
+  }, [gameFinished]);
+
   const randomElement = (array) => {
     let i = Math.floor(Math.random() * array.length);
     return array[i];
@@ -68,7 +74,7 @@ export const GlobalProvider = ({ children }) => {
   });
 
   const resetGame = () => {
-    setShowMenu(false)
+    setShowMenu(false);
     reset();
     setScore(0);
     setCountriesPlayed([]);

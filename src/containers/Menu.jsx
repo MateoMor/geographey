@@ -19,7 +19,7 @@ function Menu() {
       className="window-background"
     >
       <div className="window-style gap-6 px-12 py-12 rounded-lg">
-        <WindowHeader text={"GEOGRAPHEY"} />
+        <WindowHeader>GEOGRAPHEY</WindowHeader>
         <button id="menu" className="menu-button">
           RESUME
         </button>
