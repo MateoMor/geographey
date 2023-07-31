@@ -20,7 +20,7 @@ function MainContainer({jsonMap, jsonData, center, zoom, minZoom, strokeWidth}) 
   }, [])
   
   return (
-    <div>
+    <div className="w-[100vw] h-[100vh] overflow-hidden ">
       <GameContainer />
       <MapChart jsonMap={jsonMap} center={center} zoom={zoom} minZoom={minZoom} strokeWidth={strokeWidth}/>
       {showMenu && <Menu />}
