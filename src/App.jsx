@@ -45,12 +45,12 @@ function App() {
     <>
       <GlobalProvider>
         <Routes>
-          <Route path="/geographey" element={<Header />}>
-            <Route path="/geographey" element={<Home />} />
+          <Route path="/" element={<Header />}>
+            <Route path="/" element={<Home />} />
             {<Route path="*" element={<Default />} />}
           </Route>
           <Route
-            path="/geographey/world"
+            path="/world"
             element={
               <MainContainer
                 jsonMap={worldMap}
@@ -65,7 +65,7 @@ function App() {
             }
           />
           <Route
-            path="/geographey/americas"
+            path="/americas"
             element={
               <MainContainer
                 jsonMap={americasMap}
@@ -78,7 +78,7 @@ function App() {
             }
           />
           <Route
-            path="/geographey/asia"
+            path="/asia"
             element={
               <MainContainer
                 jsonMap={asiaMap}
@@ -91,7 +91,7 @@ function App() {
             }
           />
           <Route
-            path="/geographey/europe"
+            path="/europe"
             element={
               <MainContainer
                 jsonMap={europeMap}
@@ -104,7 +104,7 @@ function App() {
             }
           />
           <Route
-            path="/geographey/africa"
+            path="/africa"
             element={
               <MainContainer
                 jsonMap={africaMap}

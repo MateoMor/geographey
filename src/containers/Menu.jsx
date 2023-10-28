@@ -26,7 +26,7 @@ function Menu() {
         <button className="menu-button" onClick={() => resetGame()}>
           RESTART
         </button>
-        <Link to="/geographey/" className="menu-button flex justify-center">
+        <Link to="/" className="menu-button flex justify-center">
           MENU
         </Link>
       </div>

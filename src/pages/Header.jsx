@@ -31,11 +31,11 @@ function Header() {
             open ? "" : "max-[800px]:translate-x-[100%]"
           } `}
         >
-          <HeaderLink to="/geographey/world">World</HeaderLink>
-          <HeaderLink to="/geographey/americas">Americas</HeaderLink>
-          <HeaderLink to="/geographey/europe">Europe</HeaderLink>
-          <HeaderLink to="/geographey/asia">Asia</HeaderLink>
-          <HeaderLink to="/geographey/africa">Africa</HeaderLink>
+          <HeaderLink to="/world">World</HeaderLink>
+          <HeaderLink to="/americas">Americas</HeaderLink>
+          <HeaderLink to="/europe">Europe</HeaderLink>
+          <HeaderLink to="/asia">Asia</HeaderLink>
+          <HeaderLink to="/africa">Africa</HeaderLink>
         </nav>
       </header>
       <Outlet />

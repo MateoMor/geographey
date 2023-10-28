@@ -1,6 +1,6 @@
 function Default() {
   return (
-    <div className="h-[100vh] bg-pink-700">Default</div>
+    <div className="h-[100vh] bg-yellow-600">The page was not found</div>
   )
 }
 

@@ -19,29 +19,29 @@ function Home() {
     <div className="bg-pageColor">
       <section className="flex flex-wrap gap-8 justify-evenly px-[11%] max-[700px]:px-[6%] py-[5%]">
         <LayoutCard
-          to="/geographey/world"
+          to="/world"
           name="World"
-          imgPath="/geographey/maps-images/world.svg"
+          imgPath="/maps-images/world.svg"
         />
         <LayoutCard
-          to="/geographey/americas"
+          to="/americas"
           name="Americas"
-          imgPath="/geographey/maps-images/americas.svg"
+          imgPath="/maps-images/americas.svg"
         />
         <LayoutCard
-          to="/geographey/asia"
+          to="/asia"
           name="Asia"
-          imgPath="/geographey/maps-images/asia.svg"
+          imgPath="/maps-images/asia.svg"
         />
         <LayoutCard
-          to="/geographey/europe"
+          to="/europe"
           name="Europe"
-          imgPath="/geographey/maps-images/europe.svg"
+          imgPath="/maps-images/europe.svg"
         />
         <LayoutCard
-          to="/geographey/africa"
+          to="/africa"
           name="Africa"
-          imgPath="/geographey/maps-images/africa.svg"
+          imgPath="/maps-images/africa.svg"
         />
       </section>
     </div>
