@@ -1,6 +1,7 @@
 import { GiTrophyCup, GiDiamondTrophy } from "react-icons/gi";
 import { HiTrophy } from "react-icons/hi2";
 import { useGlobalState } from "../context/GlobalState";
+import { mainPath } from "../constants/appData";
 
 function ScoreBar() {
   const { score, colors } = useGlobalState();
@@ -32,7 +33,7 @@ function ScoreBar() {
         <div className="scorebarTooltpiCloud">
           {score >= 100 ? (
             <img
-              src="/geographey/assets/diamond-trophy.svg"
+              src={`${mainPath}assets/diamond-trophy.svg`}
               alt="Diamond trophy"
             />
           ) : (

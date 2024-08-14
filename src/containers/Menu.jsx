@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import WindowHeader from "../components/WindowHeader";
 import { useGlobalState } from "../context/GlobalState";
+import { APP_NAME, mainPath } from "../constants/appData";
 
 function Menu() {
   const { start, resetGame, gameFinished, setShowMenu } = useGlobalState();
@@ -19,14 +20,14 @@ function Menu() {
       className="window-background"
     >
       <div className="window-style gap-6 px-12 py-12 rounded-lg">
-        <WindowHeader>GEOGRAPHEY</WindowHeader>
+        <WindowHeader>{APP_NAME}</WindowHeader>
         <button id="menu" className="menu-button">
           RESUME
         </button>
         <button className="menu-button" onClick={() => resetGame()}>
           RESTART
         </button>
-        <Link to="/geographey/" className="menu-button flex justify-center">
+        <Link to={mainPath} className="menu-button flex justify-center">
           MENU
         </Link>
       </div>

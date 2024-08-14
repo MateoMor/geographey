@@ -4,6 +4,7 @@ import ScoreBar from "../components/ScoreBar";
 import { useGlobalState } from "../context/GlobalState";
 import WindowHeader from "../components/WindowHeader";
 import { Link } from "react-router-dom";
+import { mainPath } from "../constants/appData";
 
 function ResultWindow() {
   const { resetGame, score } = useGlobalState();
@@ -27,7 +28,7 @@ function ResultWindow() {
           <div className="w-[70%] bg-royalRed rounded-full aspect-square flex justify-center items-center row-span-2 container-border">
             {score >= 100 ? (
               <img
-                src="/geographey/assets/diamond-trophy.svg"
+                src={`${mainPath}assets/diamond-trophy.svg`}
                 alt=""
                 className="m-[15%]"
               />
@@ -56,7 +57,7 @@ function ResultWindow() {
           >
             Retry
           </button>
-          <Link to="/geographey/">
+          <Link to={mainPath}>
             <button className="menu-button resultWindowButton">MENU</button>
           </Link>
         </section>

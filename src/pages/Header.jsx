@@ -1,8 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
-import Footer from "../containers/Footer";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useGlobalState } from "../context/GlobalState";
 import HeaderLink from "../components/HeaderLink";
+
+import { pathData } from "../constants/routesData";
+import { APP_NAME, mainPath } from "../constants/appData";
 
 function Header() {
   const { open, setOpen } = useGlobalState();
@@ -11,10 +13,10 @@ function Header() {
     <div className="overflow-hidden">
       <header className="bg-mainColor w-[100%] flex justify-between pt-[8pt] pb-0 px-[20px] overflow-hidden max-[800px]:overflow-visible relative">
         <Link
-          to="/geographey"
+          to={mainPath}
           className="relative text-white text-[2em] font-bold"
         >
-          Geographey
+          {APP_NAME}
         </Link>
         <div
           onClick={() => setOpen(!open)}
@@ -31,15 +33,14 @@ function Header() {
             open ? "" : "max-[800px]:translate-x-[100%]"
           } `}
         >
-          <HeaderLink to="/geographey/world">World</HeaderLink>
-          <HeaderLink to="/geographey/americas">Americas</HeaderLink>
-          <HeaderLink to="/geographey/europe">Europe</HeaderLink>
-          <HeaderLink to="/geographey/asia">Asia</HeaderLink>
-          <HeaderLink to="/geographey/africa">Africa</HeaderLink>
+          {pathData.map((route, index) => (
+            <HeaderLink key={index} to={mainPath + route.to}>
+              {route.name}
+            </HeaderLink>
+          ))}
         </nav>
       </header>
       <Outlet />
-      <Footer />
     </div>
   );
 }
