@@ -1,6 +1,6 @@
-import { useGlobalState } from "../context/GlobalState";
+import { useGlobalState } from "../../context/GlobalState";
 
-function Info() {
+function ResultInfo() {
   const { countriesPlayed, countriesLen, countriesGuessed, countriesSkipped } =
     useGlobalState();
 
@@ -15,4 +15,4 @@ function Info() {
   );
 }
 
-export default Info;
+export default ResultInfo;

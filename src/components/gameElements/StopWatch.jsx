@@ -1,5 +1,5 @@
 import React from "react";
-import { useGlobalState } from "../context/GlobalState";
+import { useGlobalState } from "../../context/GlobalState";
 
 function StopWatch() {
   const { seconds, minutes, hours } = useGlobalState();

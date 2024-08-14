@@ -1,5 +1,5 @@
 import { enablePageScroll } from "scroll-lock";
-import LayoutCard from "../components/LayoutCard";
+import LayoutCard from "../components/mainPage/LayoutCard";
 import { useEffect } from "react";
 import { useGlobalState } from "../context/GlobalState";
 import { pathData } from "../constants/routesData";

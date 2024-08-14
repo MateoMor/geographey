@@ -1,7 +1,7 @@
 import { GiTrophyCup, GiDiamondTrophy } from "react-icons/gi";
 import { HiTrophy } from "react-icons/hi2";
-import { useGlobalState } from "../context/GlobalState";
-import { mainPath } from "../constants/appData";
+import { useGlobalState } from "../../context/GlobalState";
+import { mainPath } from "../../constants/appData";
 
 function ScoreBar() {
   const { score, colors } = useGlobalState();

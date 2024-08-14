@@ -5,7 +5,7 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 
-import { useGlobalState } from "../context/GlobalState";
+import { useGlobalState } from "../../context/GlobalState";
 
 function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
   const {

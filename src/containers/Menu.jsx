@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import WindowHeader from "../components/WindowHeader";
+import WindowHeader from "../components/mainPage/WindowHeader";
 import { useGlobalState } from "../context/GlobalState";
 import { APP_NAME, mainPath } from "../constants/appData";
 

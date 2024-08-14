@@ -1,7 +1,7 @@
 import React from "react";
-import { useGlobalState } from "../context/GlobalState";
+import { useGlobalState } from "../../context/GlobalState";
 
-function Stadistics() {
+function GameStats() {
   const { score, seconds, minutes, hours, countriesGuessed, countriesSkipped } =
     useGlobalState();
   return (
@@ -28,4 +28,4 @@ function Stadistics() {
   );
 }
 
-export default Stadistics;
+export default GameStats;

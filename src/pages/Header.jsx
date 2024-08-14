@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useGlobalState } from "../context/GlobalState";
-import HeaderLink from "../components/HeaderLink";
+import HeaderLink from "../components/mainPage/HeaderLink";
 
 import { pathData } from "../constants/routesData";
 import { APP_NAME, mainPath } from "../constants/appData";

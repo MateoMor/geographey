@@ -1,6 +1,6 @@
-import { useGlobalState } from "../context/GlobalState";
+import { useGlobalState } from "../../context/GlobalState";
 
-function Flag() {
+function CountryFlag() {
   const { country } = useGlobalState();
 
   return (
@@ -14,4 +14,4 @@ function Flag() {
   );
 }
 
-export default Flag;
+export default CountryFlag;

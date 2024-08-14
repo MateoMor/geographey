@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import MapChart from "../components/MapChart";
+import MapChart from "../components/gameElements/MapChart";
 import { useGlobalState } from "../context/GlobalState";
 import GameContainer from "./GameContainer";
 import Menu from "./Menu";

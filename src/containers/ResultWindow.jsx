@@ -1,8 +1,8 @@
 import { GiTrophyCup } from "react-icons/gi";
-import Stadistics from "../components/Stadistics";
-import ScoreBar from "../components/ScoreBar";
+import GameStats from "../components/resultWindowElements/GameStats";
+import ScoreBar from "../components/resultWindowElements/ScoreBar";
 import { useGlobalState } from "../context/GlobalState";
-import WindowHeader from "../components/WindowHeader";
+import WindowHeader from "../components/mainPage/WindowHeader";
 import { Link } from "react-router-dom";
 import { mainPath } from "../constants/appData";
 
@@ -42,7 +42,7 @@ function ResultWindow() {
               <GiTrophyCup size="70%" />
             )}
           </div>
-          <Stadistics />
+          <GameStats />
           <ScoreBar />
         </section>
         <section className="flex bg-royalRed h-[100%] row-span-1 items-center justify-evenly flex-wrap py-[4%] rounded-lg responsive-button-section">
