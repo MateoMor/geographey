@@ -7,8 +7,6 @@ import {
 
 import { useGlobalState } from "../context/GlobalState";
 
-/* import geoUrl from "../data/world/map.json"; */
-
 function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
   const {
     country,
@@ -21,10 +19,30 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
     countriesLen,
   } = useGlobalState();
 
+  function handleClickOnElement(geoJsonElement) {
+    if (geoJsonElement.id == country.alpha3Code) {
+      setCountriesGuessed(
+        countriesGuessed.concat(country.alpha3Code)
+      );
+      setCountriesPlayed(
+        countriesPlayed.concat(country.alpha3Code)
+      );
+    } else if (
+      countriesLen != countriesPlayed.length &&
+      !countriesPlayed.includes(geoJsonElement.id)
+    ) {
+      setCountriesPlayed(
+        countriesPlayed.concat(country.alpha3Code)
+      );
+      setCountriesSkipped(
+        countriesSkipped.concat(country.alpha3Code)
+      );
+    }
+  }
+
   return (
     <div className="flex flex-col justify-center items-center w-full">
       <div className="bg-white w-full max-[833px]:w-[150vw] max-[569px]:w-[200vw] max-[417px]:w-[290vw]">
-        {/*  */}
         <ComposableMap data-tip="">
           <ZoomableGroup
             center={center}
@@ -34,39 +52,20 @@ function MapChart({ jsonMap, center, zoom, minZoom, strokeWidth }) {
           >
             <Geographies geography={jsonMap}>
               {({ geographies }) =>
-                geographies.map((geo) => (
+                geographies.map((geoJsonElement) => (
                   <Geography
-                    key={geo.rsmKey}
-                    geography={geo}
+                    key={geoJsonElement.rsmKey}
+                    geography={geoJsonElement}
                     stroke="#000"
                     strokeWidth={strokeWidth}
                     className={
-                      countriesGuessed.includes(geo.id)
+                      countriesGuessed.includes(geoJsonElement.id)
                         ? "fill-correct map-chart-element"
-                        : countriesSkipped.includes(geo.id)
+                        : countriesSkipped.includes(geoJsonElement.id)
                         ? "fill-wrong map-chart-element"
                         : "hover:fill-[#F53] fill-[#27c3cb] map-chart-element"
                     }
-                    onClick={() => {
-                      if (geo.id == country.alpha3Code) {
-                        setCountriesGuessed(
-                          countriesGuessed.concat(country.alpha3Code)
-                        );
-                        setCountriesPlayed(
-                          countriesPlayed.concat(country.alpha3Code)
-                        );
-                      } else if (
-                        countriesLen != countriesPlayed.length &&
-                        !countriesPlayed.includes(geo.id)
-                      ) {
-                        setCountriesPlayed(
-                          countriesPlayed.concat(country.alpha3Code)
-                        );
-                        setCountriesSkipped(
-                          countriesSkipped.concat(country.alpha3Code)
-                        );
-                      }
-                    }}
+                    onClick={() => handleClickOnElement(geoJsonElement)}
                   />
                 ))
               }
