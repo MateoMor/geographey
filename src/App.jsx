@@ -7,31 +7,26 @@ import Default from "./pages/Default";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 
-import {mapData} from "./constants/routesData";
+import { mapData } from "./constants/routesData";
 import { mainPath } from "./constants/appData";
 
 function App() {
-
   const [isRotated, setIsRotated] = useState(false);
 
   useEffect(() => {
-    
-    
     // Función que maneja el evento orientationChange
     const handleOrientationChange = () => {
-      
       setIsRotated(!isRotated);
     };
 
     // Agregar el evento al cargar el componente
-    window.addEventListener('orientationchange', handleOrientationChange);
+    window.addEventListener("orientationchange", handleOrientationChange);
 
     // Eliminar el evento al desmontar el componente para evitar memory leaks
     return () => {
-      window.removeEventListener('orientationchange', handleOrientationChange);
+      window.removeEventListener("orientationchange", handleOrientationChange);
     };
   }, [isRotated]);
-
 
   return (
     <>
@@ -53,7 +48,8 @@ function App() {
                   jsonMap={route.jsonMap}
                   jsonData={route.jsonData}
                   center={route.center}
-                  zoom={route.zoom}                  minZoom={route.minZoom}
+                  zoom={route.zoom}
+                  minZoom={route.minZoom}
                   strokeWidth={route.strokeWidth}
                 />
               }
